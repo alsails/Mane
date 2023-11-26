@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import PortfolioPreview from '../PortfolioPreview/PortfolioPreview';
 import Title from '../Title/Title';
 import './Portfolio.css';
@@ -13,14 +15,14 @@ function Portfolio() {
       <div className='portfolio__com'>
         <div className='portfolio__type'>
           <p className='portfolio__type_name'>Коммерческие помещения</p>
-          <a className='portfolio__type_more' href='/portfolio'>Показать ещё</a>
+          <Link className='portfolio__type_more' to='/portfolio'>Показать ещё</Link>
         </div>
         <PortfolioPreview items={filteredCom} />
       </div>
       <div className='portfolio__home'>
         <div className='portfolio__type'>
           <p className='portfolio__type_name'>Жилые помещения</p>
-          <a className='portfolio__type_more' href='/portfolio'>Показать ещё</a>
+          <Link className='portfolio__type_more' href='/portfolio'>Показать ещё</Link>
         </div>
         <PortfolioPreview items={filteredHom} />
       </div>
