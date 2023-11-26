@@ -1,11 +1,16 @@
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 import PortfolioPreview from '../PortfolioPreview/PortfolioPreview';
 import Title from '../Title/Title';
 import './Portfolio.css';
-import {Com} from '../../Utils/PortfolioCards'
+import { Com } from '../../Utils/PortfolioCards'
 
 function Portfolio() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   const filteredCom = Com.filter(item => item.t.toLowerCase().includes('com'));
   const filteredHom = Com.filter(item => item.t.toLowerCase().includes('hom'));
 
