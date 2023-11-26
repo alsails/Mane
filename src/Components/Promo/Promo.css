@@ -1,0 +1,143 @@
+.promo {
+    max-width: 1280px;
+    margin: 0;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 278px);
+
+    column-gap: 19px;
+    row-gap: 14px;
+
+    grid-template-areas:
+        "A A B"
+        "A A C";
+}
+
+.promo__post {
+    border-radius: 5px;
+
+    background-position: center center;
+    background-size: fill;
+}
+
+.promo__post:first-child {
+    background-image: url('../../images/promo/type1.jpg');
+    grid-area: A;
+
+    max-width: 855px;
+    max-height: 570px;
+
+    display: flex;
+    position: relative;
+
+    background-size: cover;
+}
+
+.promo__post:nth-child(2) {
+    background-image: url('../../images/portfolio/Myasnitskaya/1.jpg');
+    grid-area: B;
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    width: 100%;
+    max-height: 278px;
+    position: relative;
+
+    background-size: cover;
+}
+
+.promo__post:nth-child(3) {
+    background-image: url('../../images/promo/type3.jpg');
+    grid-area: C;
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    width: 100%;
+    max-height: 278px;
+    position: relative;
+
+    background-size: cover;
+}
+
+.promo__more {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+
+    border-radius: 10px 0px 5px 0px;
+    background: rgba(0, 0, 0, 0.25);
+    filter: blur(0.5px);
+    backdrop-filter: blur(2px);
+
+    margin: 0;
+    padding: 7px 22px;
+
+    position: absolute;
+
+    bottom: 0;
+    right: 0;
+
+    transition: background .5s linear;
+}
+
+.promo__more:hover {
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1320px) {
+    .promo {
+        width: clac(100% - 40px);
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .promo {
+        grid-template-rows: repeat(2, 200px);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .promo {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-areas:
+            "A A A B B"
+            "A A A C C";
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .promo {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 140px 140px 200px;
+        grid-template-areas:
+            "A A A A"
+            "A A A A"
+            "B B C C"
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .promo {
+        margin: 0 45px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 220px);
+        grid-template-areas:
+            "A"
+            "B"
+            "C"
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .promo {
+        margin: 0 20px;
+    }
+}
