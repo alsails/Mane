@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState } from "react";
+import { useEffect } from "react";
 
 import './Project.css';
 import { Com } from '../../Utils/PortfolioCards'
@@ -14,6 +15,10 @@ function Project() {
 
     window.addEventListener('resize', function () {
         setisWidth(window.innerWidth);
+    });
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
     });
 
     return (

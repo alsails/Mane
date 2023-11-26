@@ -22,7 +22,7 @@ function Portfolio() {
       <div className='portfolio__home'>
         <div className='portfolio__type'>
           <p className='portfolio__type_name'>Жилые помещения</p>
-          <Link className='portfolio__type_more' href='/portfolio'>Показать ещё</Link>
+          <Link className='portfolio__type_more' to='/portfolio'>Показать ещё</Link>
         </div>
         <PortfolioPreview items={filteredHom} />
       </div>
