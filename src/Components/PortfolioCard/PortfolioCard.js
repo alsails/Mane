@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 import './PortfolioCard.css';
 
 function PortfolioCard({ item }) {
   return (
-    <a className='portfolioCard' href={`/project/${item.id}`}>
+    <Link className='portfolioCard' to={`/project/${item.id}`}>
       <div className='portfolioCard'>
         <img className='portfolioCard__img' src={item.img} alt={item.name} />
         <div className='portfolioCard__info'>
@@ -16,7 +17,7 @@ function PortfolioCard({ item }) {
           )}
         </div>
       </div>
-    </a>
+    </Link>
   )
 }
 export default PortfolioCard;

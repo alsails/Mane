@@ -15,9 +15,9 @@ function Header() {
     <header className='header'>
       {(isWidth > 650) && (
         <div className="header__container">
-          <a href="/">
+          <Link to="/">
             <img src={Logo} alt='Логотип Mano' className='header__logo' />
-          </a>
+          </Link>
           <nav className='header__nav-links'>
             <li className='header__nav-link'>
               <Link
