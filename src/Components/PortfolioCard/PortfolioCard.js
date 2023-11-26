@@ -21,3 +21,5 @@ function PortfolioCard({ item }) {
   )
 }
 export default PortfolioCard;
+
+// "homepage": "https://alsails.github.io/Mane",

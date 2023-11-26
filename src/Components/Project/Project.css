@@ -154,6 +154,15 @@
     }
 }
 
+@media screen and (max-width: 850px) {
+    .project__images {
+        display: flex;
+        flex-direction: column;
+
+        row-gap: 25px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .project__info {
         max-width: (100% - 40px);
@@ -163,59 +172,93 @@
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
+    .project__cover {
+        margin-bottom: 60px;
+    }
+
+    .project__cover-text {
+        font-size: 40px;
+    }
+
+    .project__info-texts {
+        row-gap: 25px;
+    }
+
     .project__cover-type {
-        top: calc((100% - 70px) / 2 - 80px);
+        top: calc((100% - 40px) / 2 - 50px);
     }
-    
+
     .project__cover-name {
-        top: calc((100% - 90px) / 2);
+        top: calc((100% - 45px) / 2);
+        font-size: 45px;
     }
-    
+
     .project__cover-square {
-        bottom: 25px;
+        bottom: 15px;
+        font-size: 24px;
     }
 }
 
 @media screen and (max-width: 450px) {
+    .project__cover {
+        margin-bottom: 55px;
+    }
+
     .project__cover-text {
-        font-size: 50px;
+        font-size: 35px;
+    }
+
+    .project__info-texts {
+        row-gap: 20px;
     }
 
     .project__cover-type {
-        top: calc((100% - 50px) / 2 - 60px);
+        top: calc((100% - 35px) / 2 - 40px);
     }
-    
-    .project__cover-name { 
-        top: calc((100% - 70px) / 2);  
-        font-size: 70px;
+
+    .project__cover-name {
+        top: calc((100% - 40px) / 2);
+        font-size: 40px;
     }
-    
-    .project__cover-square {   
+
+    .project__cover-square {
+        bottom: 15px;
         font-size: 20px;
     }
 }
 
 @media screen and (max-width: 400px) {
+    .project__info-text {
+        font-size: 16px;
+    }
+
     .project__cover-text {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .project__cover-type {
-        top: calc((100% - 30px) / 2 - 40px);
-    }
-    
-    .project__cover-name { 
-        top: calc((100% - 50px) / 2);  
-        font-size: 50px;
-    }
-    
-    .project__cover-square {
-        bottom: 15px;   
-        font-size: 14px;
+        top: calc((100% - 28px) / 2 - 35px);
     }
 
-    .project__images {
-        row-gap: 25px;
+    .project__cover-name {
+        top: calc((100% - 35px) / 2);
+        font-size: 35px;
+    }
+
+    .project__cover-square {
+        bottom: 10px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .project__cover {
+        margin-bottom: 45px;
+    }
+
+    .project__cover-square {
+        bottom: 10px;
+        font-size: 15px;
     }
 }
