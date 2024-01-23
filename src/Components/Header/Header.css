@@ -93,6 +93,7 @@
         width: 220px;
         height: 48px;
     }
+
     .header__nav-link{
         padding-top: 18px;
     }
@@ -113,12 +114,16 @@
         height: 32px;
     }
 
+    .header__nav-links{
+        width: 270px;
+    }
+
     .header__nav-link{
         padding-top: 7px;
     }
 
     .nav__link {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .header__phone {
@@ -126,4 +131,31 @@
         padding-top: 12px;
     }
 }
+
+@media screen and (max-width: 760px) {
+    .header__nav-link{
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header__nav-links{
+        width: 250px;
+        padding-left: 6px;
+    }
+
+    .header__nav-link{
+        padding-top: 12px;
+    }
+
+    .nav__link {
+        font-size: 14px;
+    }
+
+    .header__phone {
+        font-size: 16px;
+        padding-top: 14px;
+    }
+}
+
 

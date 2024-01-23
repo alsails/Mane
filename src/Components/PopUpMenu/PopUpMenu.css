@@ -86,3 +86,23 @@
         padding: 25px 50px 35px 20px;
     }
 }
+
+@media screen and (max-width: 760px) {
+    .PopUpMenu {  
+        top: 90px;
+    }
+
+    .PopUpMenu__lists {
+        padding: 30px 50px 35px 20px;
+    }
+}
+
+@media screen and (max-width: 756px) {
+    .PopUpMenu__lists {
+        padding: 30px 23px 35px 0;
+    }
+
+    .PopUpMenu__list {
+        font-size: 14px;
+    }
+}

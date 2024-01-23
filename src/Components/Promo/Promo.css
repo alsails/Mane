@@ -100,6 +100,7 @@
 
 @media screen and (max-width: 900px) {
     .promo {
+        max-width: 100%;
         grid-template-rows: repeat(2, 200px);
     }
 }
@@ -110,6 +111,13 @@
         grid-template-areas:
             "A A A B B"
             "A A A C C";
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .promo {
+        width: 760px;
+        max-width: calc(100% - 40px);
     }
 }
 

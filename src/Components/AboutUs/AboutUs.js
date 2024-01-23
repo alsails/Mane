@@ -41,8 +41,8 @@ function AboutUs() {
                     </p>
                 </div>
                 <div className='about__person'>
-                    <div className='about__person_img-container'><img className='about__person_img' src={julia}></img></div>
-                    <div className='about__person_img-container'><img className='about__person_img' src={igor}></img></div>
+                    <div className='about__person_img-container'><img className='about__person_img' alt='Юлия' src={julia}></img></div>
+                    <div className='about__person_img-container'><img className='about__person_img' alt='Игорь' src={igor}></img></div>
                 </div>
             </div>
             <div className='about__statistics'>
@@ -62,21 +62,21 @@ function AboutUs() {
             <div className='aboutUs__container'>
                 <div className='education__container'>
                     <p className='education__info'><span className='education__info_name'>НАШЕ</span>   <span className='education__info_name'>ОБРАЗОВАНИЕ</span></p>
-                    <img className='education__info_img' src={british}></img>
-                    <img className='education__info_img' src={national}></img>
-                    <img className='education__info_img' src={school}></img>
-                    <img className='education__info_img' src={university}></img>
+                    <img alt='Диплом' className='education__info_img' src={british}></img>
+                    <img alt='Диплом' className='education__info_img' src={national}></img>
+                    <img alt='Диплом' className='education__info_img' src={school}></img>
+                    <img alt='Диплом' className='education__info_img' src={university}></img>
                 </div>
                 <div className='partners__container'>
                     <p className='education__info'><span className='education__info_name'>С НАМИ</span>   <span className='education__info_name'>РАБОТАЮТ</span></p>
                     <div className='partners__cintainer_img'>
-                        <img className='partners__info_img' src={smeg}></img>
-                        <img className='partners__info_img partners__info_img-mid' src={krok}></img>
-                        <img className='partners__info_img' src={provanse}></img>
-                        <img className='partners__info_img' src={shato}></img>
-                        <img className='partners__info_img' src={seasons}></img>
-                        <img className='partners__info_img' src={magneto}></img>
-                        <img className='partners__info_img' src={soltex}></img>
+                        <img alt='Партнер' className='partners__info_img' src={smeg}></img>
+                        <img alt='Партнер' className='partners__info_img partners__info_img-mid' src={krok}></img>
+                        <img alt='Партнер' className='partners__info_img' src={provanse}></img>
+                        <img alt='Партнер' className='partners__info_img' src={shato}></img>
+                        <img alt='Партнер' className='partners__info_img' src={seasons}></img>
+                        <img alt='Партнер' className='partners__info_img' src={magneto}></img>
+                        <img alt='Партнер' className='partners__info_img' src={soltex}></img>
                     </div>
                 </div>
             </div>

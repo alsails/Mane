@@ -33,7 +33,7 @@ function Header() {
           smooth: true,
           duration: block === "contacts" ? 2500 : 1000
         });
-      }, 100); 
+      }, 100);
     }
   }
 
@@ -59,9 +59,13 @@ function Header() {
                 </Link>
               </li>
               <li
-                className='header__nav-link nav__link'
-                onClick={handlePopUpOpen}>
-                Портфолио
+                className='header__nav-link'>
+                <Link
+                  className="nav__link"
+                  onClick={handlePopUpOpen}
+                >
+                  Портфолио
+                </Link>
               </li>
               <li className='header__nav-link'>
                 <Link

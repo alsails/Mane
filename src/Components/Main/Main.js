@@ -7,7 +7,7 @@ function Main() {
     return (
         <>
             <Promo />
-            <AboutUs />
+            {/* <AboutUs /> */}
             <Portfolio />
             <Contacts />
         </>
