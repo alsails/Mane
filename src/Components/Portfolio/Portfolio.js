@@ -20,14 +20,14 @@ function Portfolio() {
       <div className='portfolio__com'>
         <div className='portfolio__type'>
           <p className='portfolio__type_name'>Коммерческие помещения</p>
-          <Link className='portfolio__type_more' to='/portfolio'>Показать ещё</Link>
+          <Link className='portfolio__type_more' to='/portfolio/1'>Показать ещё</Link>
         </div>
         <PortfolioPreview items={filteredCom} />
       </div>
       <div className='portfolio__home'>
         <div className='portfolio__type'>
           <p className='portfolio__type_name'>Жилые помещения</p>
-          <Link className='portfolio__type_more' to='/portfolio'>Показать ещё</Link>
+          <Link className='portfolio__type_more' to='/portfolio/1'>Показать ещё</Link>
         </div>
         <PortfolioPreview items={filteredHom} />
       </div>

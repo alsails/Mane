@@ -1,38 +1,52 @@
-import React, { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useParams } from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 import Title from '../Title/Title';
 import PortfolioPreview from '../PortfolioPreview/PortfolioPreview';
 
 import './AllPortfolio.css';
-import { Com } from '../../Utils/PortfolioCards'
+import { Com, Categories } from '../../Utils/PortfolioCards'
 
 function AllPortfolio() {
+    const { categoryId } = useParams();
     const [activeCategory, setActiveCategory] = useState('Все');
 
-    const handleCategoryClick = (category) => {
-        setActiveCategory(category);
-    };
+    const [filteredItems, setFilteredItems] = useState([]);
 
-    const filteredItems = activeCategory === 'Все'
-        ? Com
-        : Com.filter(item => item.category === activeCategory);
+    useEffect(() => {
+        if (categoryId) {
+          const category = Categories.find(cat => cat.id === categoryId);
+          setActiveCategory(category ? category.name : 'Все');
+        } else {
+          setActiveCategory('Все');
+        }
+      }, [categoryId]);
+
+    useEffect(() => {
+        const updatedFilteredItems = activeCategory === 'Все'
+            ? Com
+            : Com.filter(item => item.category === activeCategory);
+
+        setFilteredItems(updatedFilteredItems);
+    }, [activeCategory, Com]);
 
     return (
         <section className='allPortfolio'>
             <Title start="По" end="ртфолио" />
             <nav className='allPortfolio__categories'>
-                {['Все', 'Офисы', 'Отели и рестораны', 'Магазины и бутики', 'Квартиры', 'Загородные клубы и дома'].map(category => (
-                    <li
+                {Categories.map(category => (
+                    <NavLink 
                         key={category}
-                        className={`allPortfolio__category ${activeCategory === category ? 'allPortfolio__category_active' : ''}`}
-                        onClick={() => handleCategoryClick(category)}
+                        to={`/portfolio/${category.id}`}
+                        className={`allPortfolio__category ${activeCategory === category.name ? 'allPortfolio__category_active' : ''}`}
                     >
-                        {category}
-                    </li>
+                        {category.name}
+                    </NavLink >
                 ))}
             </nav>
             <div className='allPortfolio__cards'>
-                <PortfolioPreview items={filteredItems} type='portfolio'/>
+                <PortfolioPreview items={filteredItems} type='portfolio' />
             </div>
         </section>
     )

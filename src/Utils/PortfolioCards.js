@@ -145,6 +145,79 @@ import OfSmeg2 from '../images/portfolio/OficeSmeg/2.jpg'
 import OfSmeg3 from '../images/portfolio/OficeSmeg/3.jpg'
 import OfSmeg4 from '../images/portfolio/OficeSmeg/4.jpg'
 
+import Petrovskiy from '../images/portfolio/Petrovskiy/1.jpg'
+import Petrovskiy2 from '../images/portfolio/Petrovskiy/2.jpg'
+import Petrovskiy3 from '../images/portfolio/Petrovskiy/3.jpg'
+import Petrovskiy4 from '../images/portfolio/Petrovskiy/4.jpg'
+
+import IMoscow from '../images/portfolio/Moscow2/1.jpg'
+import IMoscow2 from '../images/portfolio/Moscow2/2.png'
+import IMoscow3 from '../images/portfolio/Moscow2/3.png'
+import IMoscow4 from '../images/portfolio/Moscow2/4.png'
+import IMoscow5 from '../images/portfolio/Moscow2/5.png'
+
+import Club from '../images/portfolio/Club/1.jpg'
+import Club2 from '../images/portfolio/Club/2.jpg'
+import Club3 from '../images/portfolio/Club/3.jpg'
+import Club4 from '../images/portfolio/Club/4.jpg'
+import Club5 from '../images/portfolio/Club/5.jpg'
+import Club6 from '../images/portfolio/Club/6.jpg'
+import Club7 from '../images/portfolio/Club/7.jpg'
+import Club8 from '../images/portfolio/Club/8.jpg'
+
+import Covorking from '../images/portfolio/Covorking/1.jpg'
+import Covorking2 from '../images/portfolio/Covorking/2.jpg'
+
+import Rocket from '../images/portfolio/Rocket/1.jpg'
+import Rocket2 from '../images/portfolio/Rocket/2.jpg'
+import Rocket3 from '../images/portfolio/Rocket/3.jpg'
+import Rocket4 from '../images/portfolio/Rocket/4.jpg'
+import Rocket5 from '../images/portfolio/Rocket/5.jpg'
+import Rocket6 from '../images/portfolio/Rocket/6.jpg'
+import Rocket7 from '../images/portfolio/Rocket/7.jpg'
+
+import Brand from '../images/portfolio/Brand/1.jpg'
+import Brand2 from '../images/portfolio/Brand/2.jpg'
+import Brand3 from '../images/portfolio/Brand/3.jpg'
+import Brand4 from '../images/portfolio/Brand/4.jpg'
+import Brand5 from '../images/portfolio/Brand/5.jpg'
+import Brand6 from '../images/portfolio/Brand/6.jpg'
+import Brand7 from '../images/portfolio/Brand/7.jpg'
+import Brand8 from '../images/portfolio/Brand/8.jpg'
+import Brand9 from '../images/portfolio/Brand/9.jpg'
+import Brand10 from '../images/portfolio/Brand/10.jpg'
+import Brand11 from '../images/portfolio/Brand/11.jpg'
+import Brand12 from '../images/portfolio/Brand/12.jpg'
+
+import Showcase from '../images/portfolio/Showcase/1.jpg'
+import Showcase2 from '../images/portfolio/Showcase/2.jpg'
+import Showcase3 from '../images/portfolio/Showcase/3.jpg'
+
+import SmegKrasn from '../images/portfolio/SMEGKrasn/1.jpg'
+import SmegKrasn2 from '../images/portfolio/SMEGKrasn/2.jpg'
+import SmegKrasn3 from '../images/portfolio/SMEGKrasn/3.jpg'
+import SmegKrasn4 from '../images/portfolio/SMEGKrasn/4.jpg'
+import SmegKrasn5 from '../images/portfolio/SMEGKrasn/5.jpg'
+
+import SmegGorenje from '../images/portfolio/SmegGorenje/1.jpg'
+import SmegGorenje2 from '../images/portfolio/SmegGorenje/2.jpg'
+import SmegGorenje3 from '../images/portfolio/SmegGorenje/3.jpg'
+import SmegGorenje4 from '../images/portfolio/SmegGorenje/4.jpg'
+import SmegGorenje5 from '../images/portfolio/SmegGorenje/5.jpg'
+import SmegGorenje6 from '../images/portfolio/SmegGorenje/6.jpg'
+import SmegGorenje7 from '../images/portfolio/SmegGorenje/7.jpg'
+import SmegGorenje8 from '../images/portfolio/SmegGorenje/8.jpg'
+import SmegGorenje9 from '../images/portfolio/SmegGorenje/9.jpg'
+import SmegGorenje10 from '../images/portfolio/SmegGorenje/10.jpg'
+import SmegGorenje11 from '../images/portfolio/SmegGorenje/11.jpg'
+import SmegGorenje12 from '../images/portfolio/SmegGorenje/12.jpg'
+import SmegGorenje13 from '../images/portfolio/SmegGorenje/13.jpg'
+import SmegGorenje14 from '../images/portfolio/SmegGorenje/14.jpg'
+import SmegGorenje15 from '../images/portfolio/SmegGorenje/15.jpg'
+import SmegGorenje16 from '../images/portfolio/SmegGorenje/16.jpg'
+import SmegGorenje17 from '../images/portfolio/SmegGorenje/17.jpg'
+import SmegGorenje18 from '../images/portfolio/SmegGorenje/18.jpg'
+
 export const Com = [
     {
         'id': '1',
@@ -222,7 +295,7 @@ export const Com = [
             'Московский шоу-рум бренда SMEG. Объем работы 550 кв м.',
             'Обновление шоу-рума, согласно бренд-буку, но с новой концепцией помещения. Минимальные реконструкции и демонтаж существующих экспозиций, минимальный бюджет на реализацию.',
             'Концепция проекта – привнести немного тепла Италии в нашу холодную Москву. Объединить традиции и современность. Яркость и лаконичность. Стиль 60-х и новые технологии.',
-            'Подвесные арочные светильники спроектированы в нашей студии.'    
+            'Подвесные арочные светильники спроектированы в нашей студии.'
         ],
     },
     {
@@ -439,7 +512,7 @@ export const Com = [
         'square': '38',
         'info': [
             'Элитные апартаменты в премиум квартале на Садовом, площадью 38 кв м.',
-            'Изюминка  этого небольшого пространства - огромные распашные окна в пол, выходящие во внутренний дворик уютного комплекса.', 
+            'Изюминка  этого небольшого пространства - огромные распашные окна в пол, выходящие во внутренний дворик уютного комплекса.',
             'Система хранения организована во входной зоне, что позволило сделать гостиную местом отдыха и даже спроектировать каминную зону под телевизором.'
         ],
     },
@@ -540,7 +613,7 @@ export const Com = [
     {
         'id': '16',
         't': 'com',
-        'category': 'Магазины и бутики',
+        'category': 'Офисы',
         'type': 'Шоурум',
         'name': 'Smeg',
         'img': SmegKazn,
@@ -568,7 +641,7 @@ export const Com = [
         'id': '17',
         't': 'com',
         'category': 'Офисы',
-        'type': 'Съемачная студия',
+        'type': 'Съемочная студия',
         'name': 'НОВЫЙ',
         'img': Movie,
         'images': [
@@ -586,8 +659,8 @@ export const Com = [
     {
         'id': '18',
         't': 'com',
-        'category': 'Магазины и бутики',
-        'type': 'Шоурум',
+        'category': 'Офисы',
+        'type': 'Офис',
         'name': 'Smeg',
         'img': OfSmeg,
         'images': [
@@ -606,5 +679,247 @@ export const Com = [
             'Офис организован по принципу Open space  с выделением зоны для переговорной, кабинета руководителя и гл.бухгалтера. Стеклянные перегородки позволяют дневному свету проникать в самые удаленные уголки офиса. Сделать офисную работу продуктивнее помогли звукопоглощающие потолочные и напольные покрытия. А система шкафов организована таким образом, что они не заметны, хотя заполняют весь периметр стен офиса.',
             'Шоу-рум предназначен для демонстрации образцов бытовой техники и проведения тренингов и кулинарных мастер-классов для дилеров. Главной задачей было - создать как бы оболочку для строгих, графичных и безупречных в своем совершенстве линий продукции SMEG.'
         ],
+    },
+    {
+        'id': '19',
+        't': 'hom',
+        'category': 'Квартиры',
+        'type': 'Квартира',
+        'name': 'Петровский парк',
+        'img': Petrovskiy,
+        'images': [
+            Petrovskiy2,
+            Petrovskiy3,
+            Petrovskiy4
+        ],
+        'address': {
+            'city': 'Москва',
+            'tc': 'Петровский парк'
+        }            
+    },
+    {
+        'id': '20',
+        't': 'hom',
+        'category': 'Квартиры',
+        'type': 'Квартира',
+        'name': 'I`Moscow',
+        'img': IMoscow,
+        'images': [
+            IMoscow2,
+            IMoscow3,
+            IMoscow4,
+            IMoscow5
+        ],
+        'address': {
+            'city': 'Москва',
+            'tc': 'Шлюзовая набережная'
+        },
+        'square': '65 и 37',
+        'info': [
+            'Чистоту и лаконичность этих  интерьеров  диктует быстрый ритм мегаполиса.',
+            'Задача - создать удобное и функциональное пространство для одного, максимум двух молодых амбициозных, делающих карьеру людей.',
+            'Пространство для временного проживания не требующее особого ухода, практичное и современное.'
+        ]
+            
+    },
+    {
+        'id': '21',
+        't': 'com',
+        'category': 'Отели и рестораны',
+        'type': 'Детский центр',
+        'name': 'JET kids',
+        'img': Club,
+        'images': [
+            Club2,
+            Club3,
+            Club4,
+            Club5,
+            Club6,
+            Club7,
+            Club8
+        ],
+        'address': {
+            'city': 'Домодедово',
+            'tc': ''
+        },
+        'info': [
+            'Детский центр JET kids — это многофункциональное пространство, продуманное до мелочей.',
+            'В него входят: универсальный спортивый зал, игровая комната, современный кабинет коворкинга, уютная кухня.'
+        ]
+            
+    },
+    {
+        'id': '22',
+        't': 'com',
+        'category': 'Отели и рестораны',
+        'name': 'Коворкинг',
+        'img': Covorking,
+        'images': [
+            Covorking,
+            Covorking2
+        ],
+        'info': [
+            'Коворкинг расположен в помещении фитнес клуба.',
+            'Концепция помещения решена в соответствии с общей стилистикой и колористической гаммой всего клуба.',
+            'Мебель выполнена по эскизам нашим дизайнеров. Фито-панно и неоновая световая надпись, также разработана по нашим эскизам'
+        ]
+            
+    },
+    {
+        'id': '23',
+        't': 'com',
+        'category': 'Отели и рестораны',
+        'type': 'Входная группа',
+        'name': 'Ракета',
+        'img': Rocket,
+        'images': [
+            Rocket2,
+            Rocket3,
+            Rocket4,
+            Rocket5,
+            Rocket6,
+            Rocket7
+        ],
+        'address': {
+            'city': 'Анапа',
+            'tc': ''
+        },
+        'square': '970',
+        'info': [
+            'Термальная  зона аквапарка «Ракета» в г. Анапа.',
+            'Разработана входная группа комплекса в стилистике Джапанди.',
+            'Japandi (Japan + Skandi) — так называется смесь японской и скандинавской интерьерных традиций. Несмотря на явные культурные различия, у шведов, датчан и норвежцев есть нечто общее с японцами — подход к оформлению пространства.',
+            'И те, и другие ценят минимализм и функциональность, отдают предпочтение природным материалам и естественным формам.',
+            'Основные черты: любовь к натуральным материалам, природная цветовая палитра, функциональность, доведённая до совершенства, простота форм, только прямые или округлые линии, никакой замысловатости и сложных узоров.'
+        ]
+            
+    },
+    {
+        'id': '24',
+        't': 'com',
+        'category': 'Магазины и бутики',
+        'type': 'Бренд-зоны',
+        'name': 'Smeg',
+        'img': Brand,
+        'images': [
+            Brand,
+            Brand2,
+            Brand3,
+            Brand4,
+            Brand5,
+            Brand6,
+            Brand7,
+            Brand8,
+            Brand9,
+            Brand10,
+            Brand11,
+            Brand12,
+        ],     
+    },
+    {
+        'id': '25',
+        't': 'com',
+        'category': 'Магазины и бутики',
+        'type': 'Витрина',
+        'name': 'Smeg',
+        'img': Showcase,
+        'images': [
+            Showcase,
+            Showcase,
+            Showcase,
+            Showcase2,
+            Showcase3,
+        ],
+        info: [
+            'Витрина дизайнерской бытовой техники SMEG.',
+            'Выполнена в 3-х вариантах со сменой сезона: Весна, Лето, Зима.'
+        ]
+    },
+    {
+        'id': '26',
+        't': 'com',
+        'category': 'Магазины и бутики',
+        'type': 'Шоурум',
+        'name': 'Smeg',
+        'img': SmegKrasn,
+        'images': [
+            SmegKrasn,
+            SmegKrasn2,
+            SmegKrasn3,
+            SmegKrasn4,
+            SmegKrasn5,
+        ],
+        'address': {
+            'city': 'Красноярск',
+            'tc': ''
+        }
+            
+    },
+    {
+        'id': '27',
+        't': 'com',
+        'category': 'Офисы',
+        'type': 'Шоурум',
+        'name': 'Smeg Gorenje',
+        'img': SmegGorenje,
+        'images': [
+            SmegGorenje2,
+            SmegGorenje3,
+            SmegGorenje4,
+            SmegGorenje5,
+            SmegGorenje6,
+            SmegGorenje7,
+            SmegGorenje8,
+            SmegGorenje9,
+            SmegGorenje10,
+            SmegGorenje11,
+            SmegGorenje12,
+            SmegGorenje13,
+            SmegGorenje14,
+            SmegGorenje15,
+            SmegGorenje16,
+            SmegGorenje17,
+            SmegGorenje18
+        ],
+        'address': {
+            'city': 'Казань',
+            'tc': ''
+        },
+        'square': '183',
+        'info': [
+            'Шоу-рум объединивший 2 крупных бренда Smeg  и  Gorenje   в г. Казань.',
+            'На общей площади нужно было создать 2 совершенно разных по стилистике бренда бытовой техники с одной общей переговорной комнатой и складским помещением. С разными входами, вывесками и витринами.',
+            'Разработка велась по точно бренд-буку с согласованием в головных офисах  Италии и Словении.',
+            '“Монобрендовые зоны SMEG созданы для того, чтобы продемонстрировать особый фирменный стиль SMEG и повысить качество обслуживания клиентов.',
+            'Тщательно подобранные коллекции продуктов SMEG являются определяющей философией этих пространств, задуманной для продвижения ценности «MADE IN ITALY» по всему миру.”'
+        ]
+            
+    },
+]
+
+export const Categories = [
+    {
+        'id': '1',
+        'name': 'Все'
+    },
+    {
+        'id': '2',
+        'name': 'Офисы'
+    },
+    {
+        'id': '3',
+        'name': 'Отели и рестораны'
+    },
+    {
+        'id': '4',
+        'name': 'Магазины и бутики'
+    },
+    {
+        'id': '5',
+        'name': 'Квартиры'
+    },
+    {
+        'id': '6',
+        'name': 'Загородные клубы и дома'
     },
 ]

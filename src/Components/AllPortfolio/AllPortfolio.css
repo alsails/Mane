@@ -21,6 +21,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    text-decoration: none;
 
     margin: 0;
     padding: 0;
@@ -43,7 +44,7 @@
     flex-direction: column;
 
     row-gap: 34px;
-    margin: 0 0 300px 20px;
+    margin: 0 0 300px;
 }
 
 @media screen and (max-width: 1320px) {

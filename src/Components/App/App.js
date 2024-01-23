@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 import AllPortfolio from '../AllPortfolio/AllPortfolio';
 import Project from '../Project/Project';
 import Main from "../Main/Main";
+import PopUpMenu from "../PopUpMenu/PopUpMenu";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
             element={<Main />}
           />
           <Route
-            path="/portfolio"
+            path="/portfolio/:categoryId"
             element={<AllPortfolio />}
           />
            <Route

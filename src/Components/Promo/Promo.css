@@ -36,7 +36,7 @@
 }
 
 .promo__post:nth-child(2) {
-    background-image: url('../../images/portfolio/Myasnitskaya/1.jpg');
+    background-image: url('../../images/promo/type2.jpg');
     grid-area: B;
 
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@
 
 @media screen and (max-width: 1320px) {
     .promo {
-        width: clac(100% - 40px);
+        width: calc(100% - 40px);
         margin: 0 20px;
     }
 }

@@ -1,10 +1,17 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { useNavigate } from 'react-router-dom';
 
 import './Project.css';
 import { Com } from '../../Utils/PortfolioCards'
 
 function Project() {
+    const navigate = useNavigate();
+
+    const goBack = () => {
+        navigate(-1);
+    };
+
     const { projectId } = useParams();
     const item = Com.find(item => item.id === projectId);
     var images = item.images
@@ -20,8 +27,11 @@ function Project() {
         window.scrollTo(0, 0);
     });
 
+    const slice_point = item.info ? '2' : '0'
+
     return (
         <section className='project'>
+            <button onClick={goBack} type="button" className="project__return">← Назад</button>
             <div className='project__cover'>
                 <img className='project__cover-img' alt={item.name} src={item.images[0]} />
                 <p className='project__cover-text project__cover-type'>{item.type}</p>
@@ -44,7 +54,7 @@ function Project() {
             }
             <div className='project__images'>
                 {
-                    images.slice(2, images.length).map((image) =>
+                    images.slice(slice_point, images.length).map((image) =>
                         <img className='project__image' alt={item.name} src={image} />
                     )
                 }

@@ -7,7 +7,7 @@ function PortfolioCard({ item }) {
       <div className='portfolioCard'>
         <img className='portfolioCard__img' src={item.img} alt={item.name} />
         <div className='portfolioCard__info'>
-          <p className='portfolioCard__type'>{item.type}</p>
+          {item.type && <p className='portfolioCard__type'>{item.type}</p>}
           <p className='portfolioCard__name'>{item.name}</p>
           {item.address && (
             <>

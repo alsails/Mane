@@ -26,6 +26,7 @@
 }
 
 .header__nav-links {
+    padding-left: 10px;
     display: flex;
     flex-direction: row;
 
@@ -34,8 +35,6 @@
 
 .header__nav-link {
     color: #000;
-    font-family: Roboto;
-    font-size: 21px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -50,6 +49,10 @@
     transition: color .3s linear;
 }
 
+.nav__link {
+    font-size: 21px;
+}
+
 .header__nav-link:hover {
     cursor: pointer;
     color: #6d6d6d;
@@ -59,7 +62,6 @@
     text-align: end;
 
     color: #000;
-    font-family: Roboto;
     font-size: 21px;
     font-style: normal;
     font-weight: 400;
@@ -124,3 +126,4 @@
         padding-top: 12px;
     }
 }
+

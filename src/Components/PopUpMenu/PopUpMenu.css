@@ -1,0 +1,88 @@
+.PopUpMenu {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 5;
+
+    top: 118px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    justify-items: center;
+    align-items: center;
+}
+
+.PopUpMenu_opened {
+    visibility: visible;
+    opacity: 1;
+}
+
+.PopUpMenu__container {
+    width: calc(100% / 2 + 50px);
+    background: #FFFFFF;
+    border-radius: 0 0 10px 10px;
+
+    margin: 0 auto;
+    position: relative;
+}
+
+.PopUpMenu__lists {
+    padding: 40px 73px 40px 50px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+}
+
+.PopUpMenu__list {
+    list-style: none;
+    text-align: center;
+
+    color: black;
+    text-decoration: none;
+
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.PopUpMenu__list:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1320px) {
+    .PopUpMenu__container{
+        width: calc(100% / 2 + 100px);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .PopUpMenu__container{
+        width: calc(100% / 2 + 250px);
+    }
+    
+    .PopUpMenu__lists {
+        padding: 40px 50px 30px 20px;
+    }
+
+    .PopUpMenu__list {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .PopUpMenu {  
+        top: 104px;
+    }
+
+    .PopUpMenu__lists {
+        padding: 25px 50px 35px 20px;
+    }
+}
