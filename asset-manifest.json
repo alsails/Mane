@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mane/static/css/main.725a7aa2.css",
-    "main.js": "/Mane/static/js/main.8c5dcfa8.js",
+    "main.css": "/Mane/static/css/main.c8c66b5d.css",
+    "main.js": "/Mane/static/js/main.ad1194d8.js",
     "static/js/787.dfe67ba6.chunk.js": "/Mane/static/js/787.dfe67ba6.chunk.js",
     "static/media/5.png": "/Mane/static/media/5.79a5bfac84eecbd06315.png",
     "static/media/3.png": "/Mane/static/media/3.790268e2e0c87680d533.png",
@@ -51,12 +51,12 @@
     "static/media/smeg.jpg": "/Mane/static/media/smeg.a101532e4cecb7b1829d.jpg",
     "static/media/school.png": "/Mane/static/media/school.6076a0805d06568fed59.png",
     "index.html": "/Mane/index.html",
-    "main.725a7aa2.css.map": "/Mane/static/css/main.725a7aa2.css.map",
-    "main.8c5dcfa8.js.map": "/Mane/static/js/main.8c5dcfa8.js.map",
+    "main.c8c66b5d.css.map": "/Mane/static/css/main.c8c66b5d.css.map",
+    "main.ad1194d8.js.map": "/Mane/static/js/main.ad1194d8.js.map",
     "787.dfe67ba6.chunk.js.map": "/Mane/static/js/787.dfe67ba6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.725a7aa2.css",
-    "static/js/main.8c5dcfa8.js"
+    "static/css/main.c8c66b5d.css",
+    "static/js/main.ad1194d8.js"
   ]
 }
