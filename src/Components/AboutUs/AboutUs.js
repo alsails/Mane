@@ -41,8 +41,14 @@ function AboutUs() {
                     </p>
                 </div>
                 <div className='about__person'>
-                    <div className='about__person_img-container'><img className='about__person_img' alt='Юлия' src={julia}></img></div>
-                    <div className='about__person_img-container'><img className='about__person_img' alt='Игорь' src={igor}></img></div>
+                    <div className='about__person_img-container'>
+                        <img className='about__person_img' alt='Юлия' src={julia} />
+                        <p className='about__person_text'><b>Юлия Матвиенко</b> - дизайнер частных и общественных пространств</p>
+                        </div>
+                    <div className='about__person_img-container'>
+                        <img className='about__person_img' alt='Игорь' src={igor}/>
+                        <p className='about__person_text'><b>Игорь Негара</b> - дизайн освещения</p>
+                    </div>
                 </div>
             </div>
             <div className='about__statistics'>
@@ -62,14 +68,16 @@ function AboutUs() {
             <div className='aboutUs__container'>
                 <div className='education__container'>
                     <p className='education__info'><span className='education__info_name'>НАШЕ</span>   <span className='education__info_name'>ОБРАЗОВАНИЕ</span></p>
-                    <img alt='Диплом' className='education__info_img' src={british}></img>
-                    <img alt='Диплом' className='education__info_img' src={national}></img>
-                    <img alt='Диплом' className='education__info_img' src={school}></img>
-                    <img alt='Диплом' className='education__info_img' src={university}></img>
+                    <div className='education__container_img'>
+                        <img alt='Диплом' className='education__info_img' src={british}></img>
+                        <img alt='Диплом' className='education__info_img' src={national}></img>
+                        <img alt='Диплом' className='education__info_img' src={school}></img>
+                        <img alt='Диплом' className='education__info_img' src={university}></img>
+                    </div>
                 </div>
                 <div className='partners__container'>
                     <p className='education__info'><span className='education__info_name'>С НАМИ</span>   <span className='education__info_name'>РАБОТАЮТ</span></p>
-                    <div className='partners__cintainer_img'>
+                    <div className='partners__container_img'>
                         <img alt='Партнер' className='partners__info_img' src={smeg}></img>
                         <img alt='Партнер' className='partners__info_img partners__info_img-mid' src={krok}></img>
                         <img alt='Партнер' className='partners__info_img' src={provanse}></img>

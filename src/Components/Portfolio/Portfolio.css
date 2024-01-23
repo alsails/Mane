@@ -88,6 +88,13 @@
     }
 }
 
+@media screen and (max-width: 900px) {
+    .portfolio__type_more {
+        padding: 12px 28px;
+        font-size: 20px;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .portfolio {
         margin: 100px 30px 0;
@@ -101,7 +108,7 @@
     }
 
     .portfolio__type_more {
-        padding: 15px 31px;
+        padding: 12px 20px;
         font-size: 18px;
     }
 }
@@ -124,21 +131,21 @@
     }
 
     .portfolio__type_more {
-        padding: 15px 31px;
-        font-size: 18px;
+        padding: 12px 20px;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width: 500px) {
     .portfolio__type_name {
         font-size: 15px;
-        height: 29px;
+        height: 22px;
 
         margin: 8px 0 0;
     }
 
     .portfolio__type_more {
-        padding: 15px 31px;
+        padding: 10px 20px;
         font-size: 15px;
     }
 }
@@ -156,7 +163,7 @@
     }
 
     .portfolio__type_more {
-        padding: 14px 20px;
+        padding: 10px 20px;
         font-size: 13px;
     }
 }
@@ -174,7 +181,7 @@
     }
 
     .portfolio__type_more {
-        padding: 12px 14px;
+        padding: 9px 14px;
         font-size: 12px;
     }
 }
