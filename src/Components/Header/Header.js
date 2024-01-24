@@ -6,23 +6,14 @@ import './Header.css';
 import Logo from '../../images/logo.png'
 import PopUpMenu from '../PopUpMenu/PopUpMenu'
 
-function Header() {
+function Header({handlePopUpMenuOpen}) {
   const [isWidth, setisWidth] = useState(window.innerWidth);
-  const [isPopUpMenuOpen, setIsPopUpMenuOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
 
   window.addEventListener('resize', function () {
     setisWidth(window.innerWidth);
   });
-
-  function handlePopUpOpen() {
-    setIsPopUpMenuOpen(true)
-  }
-
-  function closePopUp() {
-    setIsPopUpMenuOpen(false)
-  }
 
   function handleAboutUsClick(block) {
     if (location.pathname !== "/") {
@@ -62,7 +53,7 @@ function Header() {
                 className='header__nav-link'>
                 <Link
                   className="nav__link"
-                  onClick={handlePopUpOpen}
+                  onClick={handlePopUpMenuOpen}
                 >
                   Портфолио
                 </Link>
@@ -88,8 +79,6 @@ function Header() {
           </div>
         }
       </header>
-
-      {isPopUpMenuOpen && <PopUpMenu isOpend={isPopUpMenuOpen} close={closePopUp} />}
     </>
   )
 }

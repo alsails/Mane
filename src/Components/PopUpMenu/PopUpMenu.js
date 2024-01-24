@@ -1,16 +1,10 @@
 import { NavLink } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 import './PopUpMenu.css';
 import { Categories } from '../../Utils/PortfolioCards'
 
 function PopUpMenu({ isOpend, close }) {
-    const [isPopUpMenuOpen, setIsPopUpMenuOpen] = useState(false);
-
-    useEffect(() => {
-        setIsPopUpMenuOpen(`${isOpend ? 'true' : 'false'}`)
-    }, [isOpend])
-
     useEffect(() => {
         const popup = document.querySelector('.PopUpMenu')
         function closeByOverlayClick(evt) {
@@ -31,7 +25,7 @@ function PopUpMenu({ isOpend, close }) {
 
 
     return (
-        <div className={`PopUpMenu ${isPopUpMenuOpen ? 'PopUpMenu_opened' : ""}`}>
+        <div className={`PopUpMenu ${isOpend ? 'PopUpMenu_opened' : ""}`}>
             <div className="PopUpMenu__container">
                 <nav className="PopUpMenu__lists">
                     {
