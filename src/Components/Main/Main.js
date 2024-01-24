@@ -4,14 +4,14 @@ import Portfolio from '../Portfolio/Portfolio';
 import Contacts from '../Contacts/Contacts';
 import PromoQuiz from '../PromoQuiz/PromoQuiz'
 
-function Main() {
+function Main({handleopUpQuizOpen}) {
     return (
         <>
             <Promo />
             <AboutUs />
             <Portfolio />
             {/* <Contacts /> */}
-            <PromoQuiz />
+            <PromoQuiz handleopUpQuizOpen={handleopUpQuizOpen}/>
         </>
     )
 }

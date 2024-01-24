@@ -13,7 +13,7 @@ import PopUpQuiz from "../PopUpQuiz/PopUpQuiz";
 function App() {
   const bodyElement = document.querySelector('body');
   const [isPopUpMenuOpen, setIsPopUpMenuOpen] = useState(false);
-  const [isPopUpQuiz, setIsPopUpQuiz] = useState(true);
+  const [isPopUpQuiz, setIsPopUpQuiz] = useState(false);
 
   function handleopUpQuizOpen() {
     setIsPopUpQuiz(true)
@@ -38,7 +38,7 @@ function App() {
         <Routes>
           <Route
             path="/"
-            element={<Main />}
+            element={<Main handleopUpQuizOpen={handleopUpQuizOpen}/>}
           />
           <Route
             path="/portfolio/:categoryId"

@@ -112,6 +112,7 @@ function PopUpQuiz({ isOpend, close }) {
                 .catch((err) => {
                   console.log('FAILED...', err);
                 });
+            close()
         }
     };
 
