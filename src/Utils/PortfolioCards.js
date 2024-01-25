@@ -247,6 +247,8 @@ import SmegGorenje16 from '../images/portfolio/SmegGorenje/16.jpg'
 import SmegGorenje17 from '../images/portfolio/SmegGorenje/17.jpg'
 import SmegGorenje18 from '../images/portfolio/SmegGorenje/18.jpg'
 import SmegGorenje19 from '../images/portfolio/SmegGorenje/19.jpg'
+import SmegGorenje20 from '../images/portfolio/SmegGorenje/20.jpg'
+import SmegGorenje21 from '../images/portfolio/SmegGorenje/21.jpg'
 
 import Croc from '../images/portfolio/CROC/1.jpg'
 import Croc2 from '../images/portfolio/CROC/2.jpg'
@@ -964,6 +966,7 @@ export const Com = [
             SmegGorenje5,
             SmegGorenje6,
             SmegGorenje7,
+            SmegGorenje21,
             SmegGorenje8,
             SmegGorenje9,
             SmegGorenje19,
@@ -972,6 +975,7 @@ export const Com = [
             SmegGorenje12,
             SmegGorenje13,
             SmegGorenje14,
+            SmegGorenje20,
             SmegGorenje15,
             SmegGorenje16,
             SmegGorenje18,
