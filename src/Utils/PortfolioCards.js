@@ -29,6 +29,12 @@ import SmegKazn7 from '../images/portfolio/SMEGKazn/7.jpg'
 import SmegKazn8 from '../images/portfolio/SMEGKazn/8.jpg'
 import SmegKazn9 from '../images/portfolio/SMEGKazn/9.jpg'
 import SmegKazn10 from '../images/portfolio/SMEGKazn/10.jpg'
+import SmegKazn11 from '../images/portfolio/SMEGKazn/11.jpg'
+import SmegKazn12 from '../images/portfolio/SMEGKazn/12.jpg'
+import SmegKazn13 from '../images/portfolio/SMEGKazn/13.jpg'
+import SmegKazn14 from '../images/portfolio/SMEGKazn/14.jpg'
+import SmegKazn15 from '../images/portfolio/SMEGKazn/15.jpg'
+import SmegKazn16 from '../images/portfolio/SMEGKazn/16.jpg'
 
 import Hostel from '../images/portfolio/Hostel/1.jpg'
 import Hostel2 from '../images/portfolio/Hostel/2.jpg'
@@ -688,15 +694,20 @@ export const Com = [
         'name': 'Smeg',
         'img': SmegKazn,
         'images': [
-            SmegKazn2,
-            SmegKazn3,
             SmegKazn4,
+            SmegKazn14,
             SmegKazn5,
             SmegKazn6,
             SmegKazn7,
             SmegKazn8,
+            SmegKazn2,
             SmegKazn9,
             SmegKazn10,
+            SmegKazn12,
+            SmegKazn13,
+            SmegKazn3,
+            SmegKazn15,
+            SmegKazn16,
         ],
         'address': {
             'city': 'Казань'
