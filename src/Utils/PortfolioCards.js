@@ -8,6 +8,7 @@ import Contrast5 from '../images/portfolio/contrast/contrast5.png'
 import Contrasto from '../images/portfolio/Contrasto/1.jpg'
 import Contrasto2 from '../images/portfolio/Contrasto/2.jpg'
 import Contrasto3 from '../images/portfolio/Contrasto/3.jpg'
+import Contrasto4 from '../images/portfolio/Contrasto/4.jpg'
 
 import Smeg from '../images/portfolio/Smeg/1.jpg'
 import Smeg2 from '../images/portfolio/Smeg/2.jpg'
@@ -37,6 +38,9 @@ import Hostel5 from '../images/portfolio/Hostel/5.jpg'
 import Hostel6 from '../images/portfolio/Hostel/6.jpg'
 import Hostel7 from '../images/portfolio/Hostel/7.jpg'
 import Hostel8 from '../images/portfolio/Hostel/8.jpg'
+import Hostel9 from '../images/portfolio/Hostel/9.jpg'
+import Hostel10 from '../images/portfolio/Hostel/10.jpg'
+import Hostel11 from '../images/portfolio/Hostel/11.jpg'
 
 import MirMition from '../images/portfolio/MirMitino/1.jpg'
 import MirMition2 from '../images/portfolio/MirMitino/2.jpg'
@@ -59,6 +63,7 @@ import Molodezhny3 from '../images/portfolio/Molodezhny/3.jpg'
 import Molodezhny4 from '../images/portfolio/Molodezhny/4.jpg'
 import Molodezhny5 from '../images/portfolio/Molodezhny/5.jpg'
 import Molodezhny6 from '../images/portfolio/Molodezhny/6.jpg'
+import Molodezhny7 from '../images/portfolio/Molodezhny/7.jpg'
 
 import Myasnitskaya from '../images/portfolio/Myasnitskaya/1.jpg'
 import Myasnitskaya2 from '../images/portfolio/Myasnitskaya/2.jpg'
@@ -69,6 +74,8 @@ import Myasnitskaya6 from '../images/portfolio/Myasnitskaya/6.jpg'
 import Myasnitskaya7 from '../images/portfolio/Myasnitskaya/7.jpg'
 import Myasnitskaya8 from '../images/portfolio/Myasnitskaya/8.jpg'
 import Myasnitskaya9 from '../images/portfolio/Myasnitskaya/9.jpg'
+import Myasnitskaya10 from '../images/portfolio/Myasnitskaya/10.jpg'
+import Myasnitskaya11 from '../images/portfolio/Myasnitskaya/11.jpg'
 
 import PrimeTime from '../images/portfolio/PrimeTime/1.jpg'
 import PrimeTime2 from '../images/portfolio/PrimeTime/2.jpg'
@@ -146,6 +153,8 @@ import Okta3 from '../images/portfolio/OKTA/3.jpg'
 import Okta4 from '../images/portfolio/OKTA/4.jpg'
 import Okta5 from '../images/portfolio/OKTA/5.jpg'
 import Okta6 from '../images/portfolio/OKTA/6.jpg'
+import Okta7 from '../images/portfolio/OKTA/7.jpg'
+import Okta8 from '../images/portfolio/OKTA//8.jpg'
 
 import Movie from '../images/portfolio/Movie/1.jpg'
 import Movie2 from '../images/portfolio/Movie/2.jpg'
@@ -400,6 +409,7 @@ export const Com = [
             Molodezhny4,
             Molodezhny5,
             Molodezhny6,
+            Molodezhny7,
         ],
         'address': {
             'city': 'Москва',
@@ -428,6 +438,9 @@ export const Com = [
             Hostel6,
             Hostel7,
             Hostel8,
+            Hostel9,
+            Hostel10,
+            Hostel11,
         ],
         'address': {
             'city': 'Москва',
@@ -449,10 +462,13 @@ export const Com = [
         'img': Okta,
         'images': [
             Okta2,
-            Okta3,
+            Okta,
             Okta4,
             Okta5,
             Okta6,
+            Okta8,
+            Okta7,
+            Okta3,
         ],
         'address': {
             'city': 'Москва',
@@ -511,10 +527,13 @@ export const Com = [
             Myasnitskaya3,
             Myasnitskaya4,
             Myasnitskaya5,
-            Myasnitskaya6,
             Myasnitskaya7,
+            Myasnitskaya6,
             Myasnitskaya8,
             Myasnitskaya9,
+            Myasnitskaya11,
+            Myasnitskaya10,
+
         ],
         'address': {
             'city': 'Москва',
@@ -564,11 +583,12 @@ export const Com = [
         'images': [
             RedSide2,
             RedSide3,
-            RedSide4,
-            RedSide5,
             RedSide6,
+            RedSide,
             RedSide7,
-            RedSide8
+            RedSide5,
+            RedSide4,
+            RedSide8,
         ],
         'address': {
             'city': 'Москва',
@@ -594,6 +614,7 @@ export const Com = [
             Provans4,
             Provans5,
             Provans6,
+            Provans,
         ],
         'address': {
             'city': 'Московская область',
@@ -616,6 +637,7 @@ export const Com = [
             Contrasto2,
             Contrasto,
             Contrasto3,
+            Contrasto4,
         ],
         'address': {
             'city': 'Москва',
@@ -736,7 +758,9 @@ export const Com = [
         'images': [
             Petrovskiy2,
             Petrovskiy3,
-            Petrovskiy4
+            Petrovskiy4,
+            Petrovskiy,
+            Petrovskiy2
         ],
         'address': {
             'city': 'Москва',
@@ -754,7 +778,8 @@ export const Com = [
             IMoscow2,
             IMoscow3,
             IMoscow4,
-            IMoscow5
+            IMoscow5,
+            IMoscow
         ],
         'address': {
             'city': 'Москва',
@@ -782,7 +807,8 @@ export const Com = [
             Club5,
             Club6,
             Club7,
-            Club8
+            Club8,
+            Club,
         ],
         'address': {
             'city': 'Домодедово',
@@ -857,9 +883,9 @@ export const Com = [
             Brand7,
             Brand8,
             Brand9,
-            Brand10,
             Brand11,
             Brand12,
+            Brand10,
         ],     
     },
     {
