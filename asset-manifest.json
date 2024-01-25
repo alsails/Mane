@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mane/static/css/main.6a088e51.css",
-    "main.js": "/Mane/static/js/main.22f65b24.js",
+    "main.js": "/Mane/static/js/main.437c1aaf.js",
     "static/js/787.dfe67ba6.chunk.js": "/Mane/static/js/787.dfe67ba6.chunk.js",
     "static/media/5.png": "/Mane/static/media/5.79a5bfac84eecbd06315.png",
     "static/media/3.png": "/Mane/static/media/3.790268e2e0c87680d533.png",
@@ -22,18 +22,18 @@
     "static/media/2.jpg": "/Mane/static/media/2.43c8e8ef56381e57d87b.jpg",
     "static/media/12.jpg": "/Mane/static/media/12.49e08ff86050cffcc876.jpg",
     "static/media/type1.jpg": "/Mane/static/media/type1.808d8de94d15459d8ea1.jpg",
+    "static/media/21.jpg": "/Mane/static/media/21.66904a1e1766f368281c.jpg",
     "static/media/13.jpg": "/Mane/static/media/13.c5dd622e668acdc33417.jpg",
     "static/media/19.jpg": "/Mane/static/media/19.cc832729f9df9fe7ea0d.jpg",
     "static/media/14.jpg": "/Mane/static/media/14.3a578cbd418159b94812.jpg",
     "static/media/18.jpg": "/Mane/static/media/18.4f0f251cf41d3d858f2d.jpg",
     "static/media/igor.jpeg": "/Mane/static/media/igor.60988862b4f214ffa005.jpeg",
     "static/media/17.jpg": "/Mane/static/media/17.94730ba8d3a4dd654813.jpg",
+    "static/media/20.jpg": "/Mane/static/media/20.fa8d20d868facb28348b.jpg",
     "static/media/contrast2.png": "/Mane/static/media/contrast2.e3ccb6c4c0e94a07cfe3.png",
     "static/media/contrast4.png": "/Mane/static/media/contrast4.e91ea29a9c9f9be31045.png",
     "static/media/contrast3.png": "/Mane/static/media/contrast3.8714694418a1ebbb2a6e.png",
     "static/media/contrast5.png": "/Mane/static/media/contrast5.e56f664dbc0b20db52b6.png",
-    "static/media/21.jpg": "/Mane/static/media/21.66904a1e1766f368281c.jpg",
-    "static/media/20.jpg": "/Mane/static/media/20.fa8d20d868facb28348b.jpg",
     "static/media/type3.jpg": "/Mane/static/media/type3.cfe3094655fd62b30323.jpg",
     "static/media/julia.jpg": "/Mane/static/media/julia.604dcb72bf299690da76.jpg",
     "static/media/contrast6.png": "/Mane/static/media/contrast6.5ea400ce2ddd7d25abf6.png",
@@ -55,11 +55,11 @@
     "static/media/magneto.png": "/Mane/static/media/magneto.aa833b5fb9179580a881.png",
     "index.html": "/Mane/index.html",
     "main.6a088e51.css.map": "/Mane/static/css/main.6a088e51.css.map",
-    "main.22f65b24.js.map": "/Mane/static/js/main.22f65b24.js.map",
+    "main.437c1aaf.js.map": "/Mane/static/js/main.437c1aaf.js.map",
     "787.dfe67ba6.chunk.js.map": "/Mane/static/js/787.dfe67ba6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a088e51.css",
-    "static/js/main.22f65b24.js"
+    "static/js/main.437c1aaf.js"
   ]
 }
