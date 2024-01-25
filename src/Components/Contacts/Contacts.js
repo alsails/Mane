@@ -92,9 +92,9 @@ function Contacts() {
                     <span className='contacts__form-error'>Произошла ошибка при отправке</span>
                 </form>
                 <ul className='contacts__list'>
-                    <li className='contacts__list-contact'>8 999 999 99 99</li>
-                    <li className='contacts__list-contact'>Whats App</li>
-                    <li className='contacts__list-contact'>email@mail.ru</li>
+                    <li className='contacts__list-contact'>8 916 672 62 25</li>
+                    <li className='contacts__list-contact'>Ленинская слобода 19, БЦ Омега Плаза</li>
+                    <li className='contacts__list-contact'>juliamanedesign@gmail.com</li>
                 </ul>
             </div>
         </section>

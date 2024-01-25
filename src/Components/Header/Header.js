@@ -70,7 +70,7 @@ function Header({handlePopUpMenuOpen}) {
                 </Link>
               </li>
             </nav>
-            <p className='header__phone'>8 999 999 99 99</p>
+            <p className='header__phone'>8 916 672 62 25</p>
           </div>
         )}
         {(isWidth < 651) &&

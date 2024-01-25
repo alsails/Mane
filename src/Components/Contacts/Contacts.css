@@ -87,20 +87,23 @@
 
     display: flex;
     flex-direction: column;
-    row-gap: 40px;
+    row-gap: 25px;
 
     align-items: flex-end;
 }
 
 .contacts__list-contact {
+    max-width: 285px;
     color: #000;
-    font-size: 22px;
+    font-size: 19px;
     font-style: normal;
     font-weight: 400;
     line-height: 27px;
 
     padding: 0;
     margin: 0;
+
+    text-align: end;
 }
 
 @media screen and (max-width: 1320px) {
