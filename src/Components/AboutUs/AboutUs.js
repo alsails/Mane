@@ -10,7 +10,6 @@ import provanse from '../../images/partners/provanse.jpeg'
 import seasons from '../../images/partners/seasons.jpg'
 import shato from '../../images/partners/shato.jpg'
 import smeg from '../../images/partners/smeg.jpg'
-import soltex from '../../images/partners/soltex.png'
 import krok from '../../images/partners/krok.jpg'
 
 import igor from '../../images/person/igor.jpeg'
@@ -84,7 +83,6 @@ function AboutUs() {
                         <img alt='Партнер' className='partners__info_img' src={shato}></img>
                         <img alt='Партнер' className='partners__info_img' src={seasons}></img>
                         <img alt='Партнер' className='partners__info_img' src={magneto}></img>
-                        <img alt='Партнер' className='partners__info_img' src={soltex}></img>
                     </div>
                 </div>
             </div>
