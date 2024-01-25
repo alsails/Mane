@@ -41,7 +41,7 @@ import Hostel8 from '../images/portfolio/Hostel/8.jpg'
 import MirMition from '../images/portfolio/MirMitino/1.jpg'
 import MirMition2 from '../images/portfolio/MirMitino/2.jpg'
 import MirMition3 from '../images/portfolio/MirMitino/3.jpeg'
-import MirMition4 from '../images/portfolio/MirMitino/4.jpg'
+import MirMition4 from '../images/portfolio/MirMitino/4.jpeg'
 import MirMition5 from '../images/portfolio/MirMitino/5.jpg'
 import MirMition6 from '../images/portfolio/MirMitino/6.jpg'
 import MirMition7 from '../images/portfolio/MirMitino/7.jpg'
@@ -50,6 +50,8 @@ import MirMition9 from '../images/portfolio/MirMitino/9.jpg'
 import MirMition10 from '../images/portfolio/MirMitino/10.jpg'
 import MirMition11 from '../images/portfolio/MirMitino/11.jpg'
 import MirMition12 from '../images/portfolio/MirMitino/12.jpg'
+import MirMition13 from '../images/portfolio/MirMitino/13.jpg'
+import MirMition14 from '../images/portfolio/MirMitino/14.jpg'
 
 import Molodezhny from '../images/portfolio/Molodezhny/1.jpg'
 import Molodezhny2 from '../images/portfolio/Molodezhny/2.jpg'
@@ -74,7 +76,6 @@ import PrimeTime3 from '../images/portfolio/PrimeTime/3.jpg'
 import PrimeTime4 from '../images/portfolio/PrimeTime/4.jpg'
 import PrimeTime5 from '../images/portfolio/PrimeTime/5.jpg'
 import PrimeTime6 from '../images/portfolio/PrimeTime/6.jpg'
-import PrimeTime7 from '../images/portfolio/PrimeTime/7.jpg'
 
 import Moscow from '../images/portfolio/Moscow/1.jpg'
 import Moscow2 from '../images/portfolio/Moscow/2.jpg'
@@ -337,11 +338,11 @@ export const Com = [
         'img': PrimeTime2,
         'images': [
             PrimeTime,
+            PrimeTime2,
             PrimeTime3,
             PrimeTime4,
             PrimeTime5,
             PrimeTime6,
-            PrimeTime7
         ],
         'address': {
             'city': 'Москва',
@@ -472,6 +473,7 @@ export const Com = [
         'img': MirMition,
         'images': [
             MirMition8,
+            MirMition,
             MirMition2,
             MirMition3,
             MirMition4,
@@ -482,6 +484,8 @@ export const Com = [
             MirMition10,
             MirMition11,
             MirMition12,
+            MirMition13,
+            MirMition14,
         ],
         'address': {
             'city': 'Москва',
@@ -935,6 +939,34 @@ export const Com = [
             'Тщательно подобранные коллекции продуктов SMEG являются определяющей философией этих пространств, задуманной для продвижения ценности «MADE IN ITALY» по всему миру.”'
         ]
             
+    },
+    {
+        'id': '28',
+        't': 'com',
+        'category': 'Офисы',
+        'type': 'Шоурум',
+        'name': 'Smeg',
+        'img': Smeg,
+        'images': [
+            Smeg2,
+            Smeg3,
+            Smeg4,
+            Smeg5,
+            Smeg6,
+            Smeg7,
+            Smeg8
+        ],
+        'address': {
+            'city': 'Москва',
+            'tc': ''
+        },
+        'square': '550',
+        'info': [
+            'Московский шоу-рум бренда SMEG. Объем работы 550 кв м.',
+            'Обновление шоу-рума, согласно бренд-буку, но с новой концепцией помещения. Минимальные реконструкции и демонтаж существующих экспозиций, минимальный бюджет на реализацию.',
+            'Концепция проекта – привнести немного тепла Италии в нашу холодную Москву. Объединить традиции и современность. Яркость и лаконичность. Стиль 60-х и новые технологии.',
+            'Подвесные арочные светильники спроектированы в нашей студии.'
+        ],
     },
 ]
 
