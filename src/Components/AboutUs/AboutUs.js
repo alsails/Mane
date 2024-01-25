@@ -43,7 +43,7 @@ function AboutUs() {
                 <div className='about__person'>
                     <div className='about__person_img-container'>
                         <img className='about__person_img' alt='Юлия' src={julia} />
-                        <p className='about__person_text'><b>Юлия Матвиенко</b> - дизайнер частных и общественных пространств</p>
+                        <p className='about__person_text'><b>Юлия Матвиенко</b> - руководитель студии</p>
                         </div>
                     <div className='about__person_img-container'>
                         <img className='about__person_img' alt='Игорь' src={igor}/>
