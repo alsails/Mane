@@ -84,7 +84,7 @@ function PopUpQuiz({ isOpend, close }) {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        if (block != 6) {
+        if (block !== 6) {
             setBlock(block + 1)
             setButtonActive(false)
         }

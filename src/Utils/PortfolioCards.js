@@ -74,6 +74,7 @@ import PrimeTime3 from '../images/portfolio/PrimeTime/3.jpg'
 import PrimeTime4 from '../images/portfolio/PrimeTime/4.jpg'
 import PrimeTime5 from '../images/portfolio/PrimeTime/5.jpg'
 import PrimeTime6 from '../images/portfolio/PrimeTime/6.jpg'
+import PrimeTime7 from '../images/portfolio/PrimeTime/7.jpg'
 
 import Moscow from '../images/portfolio/Moscow/1.jpg'
 import Moscow2 from '../images/portfolio/Moscow/2.jpg'
@@ -118,6 +119,16 @@ import Grand8 from '../images/portfolio/Grand/8.jpg'
 import Grand9 from '../images/portfolio/Grand/9.jpg'
 import Grand10 from '../images/portfolio/Grand/10.jpg'
 import Grand11 from '../images/portfolio/Grand/11.jpg'
+import Grand12 from '../images/portfolio/Grand/12.jpg'
+import Grand13 from '../images/portfolio/Grand/13.jpg'
+import Grand14 from '../images/portfolio/Grand/14.jpg'
+import Grand15 from '../images/portfolio/Grand/15.jpg'
+import Grand16 from '../images/portfolio/Grand/16.jpg'
+import Grand17 from '../images/portfolio/Grand/17.jpg'
+import Grand18 from '../images/portfolio/Grand/18.jpg'
+import Grand19 from '../images/portfolio/Grand/19.jpg'
+import Grand20 from '../images/portfolio/Grand/20.jpg'
+import Grand21 from '../images/portfolio/Grand/21.jpg'
 
 import Chine from '../images/portfolio/Chine/1.jpg'
 import Chine2 from '../images/portfolio/Chine/2.jpg'
@@ -263,6 +274,16 @@ export const Com = [
             Grand9,
             Grand10,
             Grand11,
+            Grand12,
+            Grand13,
+            Grand14,
+            Grand15,
+            Grand16,
+            Grand17,
+            Grand18,
+            Grand19,
+            Grand20,
+            Grand21,
         ],
         'address': {
             'city': 'Московская область',
@@ -318,6 +339,7 @@ export const Com = [
             PrimeTime4,
             PrimeTime5,
             PrimeTime6,
+            PrimeTime7
         ],
         'address': {
             'city': 'Москва',
