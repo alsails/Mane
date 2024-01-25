@@ -642,6 +642,7 @@ export const Com = [
             Chine4,
             Chine5,
             Chine6,
+            Chine
         ],
         'address': {
             'city': '',

@@ -62,12 +62,10 @@ function PopUpQuiz({ isOpend, close }) {
 
     const handleOptionPhone = (event) => {
         setSelectedPhone(event.nativeEvent.target.value);
-        setButtonActive(true);
     };
 
     const handleOptionName = (event) => {
         setSelectedName(event.target.value);
-        setButtonActive(true);
     };
 
     const handleCustomInputChange = (event) => {

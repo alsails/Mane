@@ -9,9 +9,9 @@ function Main({handleopUpQuizOpen}) {
         <>
             <Promo />
             <AboutUs />
-            <Portfolio />
-            {/* <Contacts /> */}
             <PromoQuiz handleopUpQuizOpen={handleopUpQuizOpen}/>
+            <Portfolio />
+            <Contacts />
         </>
     )
 }

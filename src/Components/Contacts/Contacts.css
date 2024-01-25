@@ -31,12 +31,20 @@
     padding: 0 0 5px 11px;
 }
 
+.contacts__form-input:focus-visible {
+    outline: none;
+}
+
 .contacts__form-input::placeholder {
     color: #646464;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+}
+
+.contacts__form_checkbox {
+    margin-right: 8px; 
 }
 
 .contacts__form-button {
@@ -49,6 +57,27 @@
     max-width: 173px;
 
     margin: 9px auto 0;
+}
+
+.contacts__form-error {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+
+    color: #ED202A;
+
+    padding: 0;
+    margin: -40px 0 0 -5px;
+    text-align: center;
+
+    visibility: hidden;
+    opacity: 0;
+}
+
+.contacts__form-error_active {
+    visibility: visible;
+    opacity: 1;
 }
 
 .contacts__list {

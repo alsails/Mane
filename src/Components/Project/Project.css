@@ -136,8 +136,8 @@
 
 @media screen and (max-width: 1320px) {
     .project__cover {
-        margin: 58px 20px 77px;
-        max-width: (100% - 40px);
+        margin: 38px 20px 77px;
+        max-width: calc(100% - 40px);
         max-height: 830px;
 
         position: relative;
@@ -151,6 +151,10 @@
     .project__info-texts {
         max-width: (100% - 40px);
         margin: 0 20px;
+    }
+
+    .project__return {
+        margin: 10px 0 0 20px;
     }
 }
 
@@ -173,6 +177,14 @@
     .project__info-text {
         font-size: 18px;
     }
+
+    .project__cover {
+        margin: 28px 20px 77px;
+    }
+
+    .project__return {
+        margin: 30px 0 0 20px;
+    }
 }
 
 @media screen and (max-width: 850px) {
@@ -190,6 +202,10 @@
         margin: 0 20px 55px;
 
         column-gap: 25px;
+    }
+
+    .project__return {
+        font-size: 18px;
     }
 }
 
@@ -223,7 +239,12 @@
 
 @media screen and (max-width: 450px) {
     .project__cover {
+        margin-top: 20px;
         margin-bottom: 55px;
+    }
+
+    .project__return {
+        font-size: 14px;
     }
 
     .project__cover-text {
@@ -280,6 +301,6 @@
 
     .project__cover-square {
         bottom: 10px;
-        font-size: 15px;
+        font-size: 13px;
     }
 }

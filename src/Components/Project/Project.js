@@ -7,6 +7,7 @@ import { Com } from '../../Utils/PortfolioCards'
 
 function Project() {
     const navigate = useNavigate();
+    let slice_point = 2
 
     const goBack = () => {
         navigate(-1);
@@ -27,7 +28,16 @@ function Project() {
         window.scrollTo(0, 0);
     });
 
-    const slice_point = item.info ? '2' : '0'
+    if (item.info) {
+        if (isWidth > 900) {
+            slice_point = 2
+        }
+        else {
+            slice_point = 1
+        }
+    } else {
+        slice_point = 1
+    }
 
     return (
         <section className='project'>
