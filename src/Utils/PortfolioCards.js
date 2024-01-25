@@ -716,6 +716,7 @@ export const Com = [
         'images': [
             Movie2,
             Movie3,
+            Movie,
             Movie4,
             Movie5,
             Movie6,
