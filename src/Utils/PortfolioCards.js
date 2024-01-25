@@ -533,6 +533,7 @@ export const Com = [
             Myasnitskaya9,
             Myasnitskaya11,
             Myasnitskaya10,
+            Myasnitskaya2
 
         ],
         'address': {
