@@ -248,6 +248,14 @@ import SmegGorenje17 from '../images/portfolio/SmegGorenje/17.jpg'
 import SmegGorenje18 from '../images/portfolio/SmegGorenje/18.jpg'
 import SmegGorenje19 from '../images/portfolio/SmegGorenje/19.jpg'
 
+import Croc from '../images/portfolio/CROC/1.jpg'
+import Croc2 from '../images/portfolio/CROC/2.jpg'
+import Croc3 from '../images/portfolio/CROC/3.jpg'
+import Croc4 from '../images/portfolio/CROC/4.jpg'
+import Croc5 from '../images/portfolio/CROC/5.jpg'
+import Croc6 from '../images/portfolio/CROC/6.jpg'
+import Croc7 from '../images/portfolio/CROC/7.jpg'
+
 export const Com = [
     {
         'id': '1',
@@ -1009,6 +1017,23 @@ export const Com = [
             'Обновление шоу-рума, согласно бренд-буку, но с новой концепцией помещения. Минимальные реконструкции и демонтаж существующих экспозиций, минимальный бюджет на реализацию.',
             'Концепция проекта – привнести немного тепла Италии в нашу холодную Москву. Объединить традиции и современность. Яркость и лаконичность. Стиль 60-х и новые технологии.',
             'Подвесные арочные светильники спроектированы в нашей студии.'
+        ],
+    },
+    {
+        'id': '29',
+        't': 'com',
+        'category': 'Офисы',
+        'type': 'Офис ',
+        'name': 'CROC',
+        'img': Croc,
+        'images': [
+            Croc,
+            Croc2,
+            Croc7,
+            Croc3,
+            Croc4,
+            Croc5,
+            Croc6,
         ],
     },
 ]
