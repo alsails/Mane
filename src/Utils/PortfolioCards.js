@@ -100,6 +100,8 @@ import Esenino5 from '../images/portfolio/Esenino/5.jpg'
 import Esenino6 from '../images/portfolio/Esenino/7.jpg'
 import Esenino7 from '../images/portfolio/Esenino/8.jpg'
 import Esenino8 from '../images/portfolio/Esenino/6.jpg'
+import Esenino9 from '../images/portfolio/Esenino/9.jpg'
+import Esenino10 from '../images/portfolio/Esenino/10.jpg'
 
 import Provans from '../images/portfolio/Provans/1.jpg'
 import Provans2 from '../images/portfolio/Provans/2.jpg'
@@ -368,6 +370,9 @@ export const Com = [
             Esenino6,
             Esenino7,
             Esenino8,
+            Esenino9,
+            Esenino,
+            Esenino10,
         ],
         'address': {
             'city': '',
