@@ -240,6 +240,7 @@ import SmegGorenje15 from '../images/portfolio/SmegGorenje/15.jpg'
 import SmegGorenje16 from '../images/portfolio/SmegGorenje/16.jpg'
 import SmegGorenje17 from '../images/portfolio/SmegGorenje/17.jpg'
 import SmegGorenje18 from '../images/portfolio/SmegGorenje/18.jpg'
+import SmegGorenje19 from '../images/portfolio/SmegGorenje/19.jpg'
 
 export const Com = [
     {
@@ -939,12 +940,14 @@ export const Com = [
         'images': [
             SmegGorenje2,
             SmegGorenje3,
+            SmegGorenje,
             SmegGorenje4,
             SmegGorenje5,
             SmegGorenje6,
             SmegGorenje7,
             SmegGorenje8,
             SmegGorenje9,
+            SmegGorenje19,
             SmegGorenje10,
             SmegGorenje11,
             SmegGorenje12,
@@ -952,8 +955,8 @@ export const Com = [
             SmegGorenje14,
             SmegGorenje15,
             SmegGorenje16,
+            SmegGorenje18,
             SmegGorenje17,
-            SmegGorenje18
         ],
         'address': {
             'city': 'Казань',
