@@ -13,11 +13,6 @@ import PopUpQuiz from "../PopUpQuiz/PopUpQuiz";
 function App() {
   const bodyElement = document.querySelector('body');
   const [isPopUpMenuOpen, setIsPopUpMenuOpen] = useState(false);
-  const [isPopUpQuiz, setIsPopUpQuiz] = useState(false);
-
-  function handleopUpQuizOpen() {
-    setIsPopUpQuiz(true)
-  }
 
   function handlePopUpMenuOpen() {
     setIsPopUpMenuOpen(true)
@@ -26,7 +21,6 @@ function App() {
 
   function closePopUp() {
     setIsPopUpMenuOpen(false)
-    setIsPopUpQuiz(false)
     bodyElement.style.overflow = 'auto';
   }
 
@@ -38,7 +32,7 @@ function App() {
         <Routes>
           <Route
             path="/"
-            element={<Main handleopUpQuizOpen={handleopUpQuizOpen}/>}
+            element={<Main/>}
           />
           <Route
             path="/portfolio/:categoryId"
@@ -51,7 +45,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-      <PopUpQuiz isOpend={isPopUpQuiz} close={closePopUp} />
+      
       <PopUpMenu isOpend={isPopUpMenuOpen} close={closePopUp} />
     </div>
   )

@@ -3,7 +3,6 @@ import InputMask from 'react-input-mask';
 import { send } from 'emailjs-com';
 
 import './PopUpQuiz.css';
-import image from '../../images/promo/1.jpg'
 
 function PopUpQuiz({ isOpend, close }) {
     const [block, setBlock] = useState(1)
@@ -14,7 +13,6 @@ function PopUpQuiz({ isOpend, close }) {
     const [selectedPhone, setSelectedPhone] = useState('');
     const [selectedName, setSelectedName] = useState('');
     const [isChecked, setIsChecked] = useState(true);
-    const [isStyle, setStyle] = useState("");
     const [customInput, setCustomInput] = useState("");
 
     const [sliderValue, setSliderValue] = useState(100);
@@ -27,6 +25,8 @@ function PopUpQuiz({ isOpend, close }) {
     useEffect(() => {
         setButtonActive(selectedName.trim() !== '' && selectedPhone.trim() !== '' && isChecked);
     }, [selectedName, selectedPhone, isChecked]);
+
+   
 
     useEffect(() => {
         const popup = document.querySelector('.PopUpQuiz')
@@ -74,24 +74,18 @@ function PopUpQuiz({ isOpend, close }) {
         setButtonActive(!!event.target.value);
     };
 
-    const handleStyleChange = (name) => {
-        setStyle(name)
-        setButtonActive(true);
-    };
-
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        if (block !== 6) {
+        if (block !== 5) {
             setBlock(block + 1)
             setButtonActive(false)
         }
 
-        if (block === 6) {
+        if (block === 5) {
             const result = {
                 Type: selectedType,
                 Square: sliderValue,
-                Style: isStyle,
                 Price: selectedPrice,
                 Time: selectedTime,
                 Name: selectedName,
@@ -232,7 +226,7 @@ function PopUpQuiz({ isOpend, close }) {
                             <>
                                 <h2 className="PopUpQuiz__title">Какая у вас общая площадь помещения?</h2>
                                 <div className="PopUpQuiz__container-squre">
-                                    <p className="PopUpQuiz__squre">{sliderValue}</p>
+                                    <p className="PopUpQuiz__squre">{sliderValue} кв. м</p>
                                     <input
                                         type="range"
                                         min="25"
@@ -249,30 +243,6 @@ function PopUpQuiz({ isOpend, close }) {
                             </>
                         )}
                     {(block === 3) &&
-                        (
-                            <>
-                                <h2 className="PopUpQuiz__title">В каком стиле вы хотите интерьер?</h2>
-                                <div className="PopUpQuiz__container-style">
-                                    <div className={`PopUpQuiz__container-style_type ${isStyle === "Luxury" ? 'PopUpQuiz__container-style_type-active' : ''}`} onClick={() => handleStyleChange('Luxury')}>
-                                        <img className="PopUpQuiz__container-style_img" src={image} alt='Представление' />
-                                        <p className="PopUpQuiz__container-style_text">Luxury</p>
-                                    </div>
-                                    <div className={`PopUpQuiz__container-style_type ${isStyle === "Минимализм" ? 'PopUpQuiz__container-style_type-active' : ''}`} onClick={() => handleStyleChange('Минимализм')}>
-                                        <img className="PopUpQuiz__container-style_img" src={image} alt='Представление' />
-                                        <p className="PopUpQuiz__container-style_text">Минимализм</p>
-                                    </div>
-                                    <div className={`PopUpQuiz__container-style_type ${isStyle === "Арт-деко" ? 'PopUpQuiz__container-style_type-active' : ''}`} onClick={() => handleStyleChange('Арт-деко')}>
-                                        <img className="PopUpQuiz__container-style_img" src={image} alt='Представление' />
-                                        <p className="PopUpQuiz__container-style_text">Арт-деко</p>
-                                    </div>
-                                    <div className={`PopUpQuiz__container-style_type ${isStyle === "Скандинавский" ? 'PopUpQuiz__container-style_type-active' : ''}`} onClick={() => handleStyleChange('Скандинавский')}>
-                                        <img className="PopUpQuiz__container-style_img" src={image} alt='Представление' />
-                                        <p className="PopUpQuiz__container-style_text">Скандинавский</p>
-                                    </div>
-                                </div>
-                            </>
-                        )}
-                    {(block === 4) &&
                         (
                             <>
                                 <h2 className="PopUpQuiz__title">Какой ваш бюджет?</h2>
@@ -296,7 +266,7 @@ function PopUpQuiz({ isOpend, close }) {
                                 </div>
                             </>
                         )}
-                    {(block === 5) &&
+                    {(block === 4) &&
                         (
                             <>
                                 <h2 className="PopUpQuiz__title">Когда вы хотите начать ремонт?</h2>
@@ -320,7 +290,7 @@ function PopUpQuiz({ isOpend, close }) {
                                 </div>
                             </>
                         )}
-                    {(block === 6) &&
+                    {(block === 5) &&
                         (
                             <>
                                 <div className="PopUpQuiz__container_form">
@@ -363,7 +333,7 @@ function PopUpQuiz({ isOpend, close }) {
                             className={`PopUpQuiz__more ${isButtonActive ? 'PopUpQuiz__more-active' : ''}`}
                             onClick={handleSubmit}
                             disabled={!isButtonActive}>
-                            {block !== 6 ? 'Далее' : 'Отправить'}
+                            {block !== 5 ? 'Далее' : 'Отправить'}
                         </button>
                     </div>
 

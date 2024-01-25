@@ -29,7 +29,6 @@ import SmegKazn7 from '../images/portfolio/SMEGKazn/7.jpg'
 import SmegKazn8 from '../images/portfolio/SMEGKazn/8.jpg'
 import SmegKazn9 from '../images/portfolio/SMEGKazn/9.jpg'
 import SmegKazn10 from '../images/portfolio/SMEGKazn/10.jpg'
-import SmegKazn11 from '../images/portfolio/SMEGKazn/11.jpg'
 import SmegKazn12 from '../images/portfolio/SMEGKazn/12.jpg'
 import SmegKazn13 from '../images/portfolio/SMEGKazn/13.jpg'
 import SmegKazn14 from '../images/portfolio/SMEGKazn/14.jpg'
@@ -857,7 +856,7 @@ export const Com = [
         'info': [
             'Коворкинг расположен в помещении фитнес клуба.',
             'Концепция помещения решена в соответствии с общей стилистикой и колористической гаммой всего клуба.',
-            'Мебель выполнена по эскизам нашим дизайнеров. Фито-панно и неоновая световая надпись, также разработана по нашим эскизам'
+            'Мебель выполнена по эскизам наших дизайнеров. Фито-панно и неоновая световая надпись, также разработана по нашим эскизам'
         ]
             
     },

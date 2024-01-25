@@ -33,6 +33,8 @@
     padding-left: 40px;
 
     margin-top: -30px;
+
+    position: relative;
 }
 
 .quiz__info_button {

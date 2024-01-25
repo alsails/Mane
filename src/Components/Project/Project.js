@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 import './Project.css';
 import { Com } from '../../Utils/PortfolioCards'
+import video from '../../video/JetKids.mp4'
 
 function Project() {
     const navigate = useNavigate();
@@ -61,6 +62,14 @@ function Project() {
                         }
                     </div>
                 </div>
+            }
+            {item.id === '21' &&
+                <video controls muted className="project__video">
+                    <source className="project__source" src={video} type="video/mp4" preload='auto'/>
+                    <p className="project__error">
+                        Ваш браузер не поддерживает встроенные видео.
+                    </p>
+                </video>
             }
             <div className='project__images'>
                 {
