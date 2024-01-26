@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mane/static/css/main.d09aa761.css",
-    "main.js": "/Mane/static/js/main.343603b0.js",
+    "main.css": "/Mane/static/css/main.2b752000.css",
+    "main.js": "/Mane/static/js/main.0059b411.js",
     "static/js/787.dfe67ba6.chunk.js": "/Mane/static/js/787.dfe67ba6.chunk.js",
     "static/media/JetKids.mp4": "/Mane/static/media/JetKids.31cbfeb6efd75af196c9.mp4",
     "static/media/aboutUs.mp4": "/Mane/static/media/aboutUs.84c62643b46c689d3290.mp4",
@@ -56,12 +56,12 @@
     "static/media/school.png": "/Mane/static/media/school.24df3b35c589ae4e508a.png",
     "static/media/magneto.png": "/Mane/static/media/magneto.aa833b5fb9179580a881.png",
     "index.html": "/Mane/index.html",
-    "main.d09aa761.css.map": "/Mane/static/css/main.d09aa761.css.map",
-    "main.343603b0.js.map": "/Mane/static/js/main.343603b0.js.map",
+    "main.2b752000.css.map": "/Mane/static/css/main.2b752000.css.map",
+    "main.0059b411.js.map": "/Mane/static/js/main.0059b411.js.map",
     "787.dfe67ba6.chunk.js.map": "/Mane/static/js/787.dfe67ba6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d09aa761.css",
-    "static/js/main.343603b0.js"
+    "static/css/main.2b752000.css",
+    "static/js/main.0059b411.js"
   ]
 }
