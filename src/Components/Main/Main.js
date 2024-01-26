@@ -4,6 +4,7 @@ import Portfolio from '../Portfolio/Portfolio';
 import Contacts from '../Contacts/Contacts';
 import PromoQuiz from '../PromoQuiz/PromoQuiz'
 import Video from '../Video/Video';
+import Price from '../Price/Price';
 
 function Main() {
     return (
@@ -12,6 +13,7 @@ function Main() {
             <AboutUs />
             <PromoQuiz />
             <Portfolio />
+            <Price />
             <Contacts />
             <Video />
         </>
