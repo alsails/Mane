@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/Mane/static/css/main.df10cbd2.css",
-    "main.js": "/Mane/static/js/main.1c3b7f79.js",
+    "main.css": "/Mane/static/css/main.d09aa761.css",
+    "main.js": "/Mane/static/js/main.343603b0.js",
     "static/js/787.dfe67ba6.chunk.js": "/Mane/static/js/787.dfe67ba6.chunk.js",
+    "static/media/JetKids.mp4": "/Mane/static/media/JetKids.31cbfeb6efd75af196c9.mp4",
+    "static/media/aboutUs.mp4": "/Mane/static/media/aboutUs.84c62643b46c689d3290.mp4",
     "static/media/5.png": "/Mane/static/media/5.79a5bfac84eecbd06315.png",
     "static/media/3.png": "/Mane/static/media/3.790268e2e0c87680d533.png",
     "static/media/6.jpg": "/Mane/static/media/6.d054878e89a6f8cb40c5.jpg",
@@ -14,7 +16,6 @@
     "static/media/3.jpg": "/Mane/static/media/3.b5fe128f29c95a5a7224.jpg",
     "static/media/8.jpg": "/Mane/static/media/8.95daa722bddfca951677.jpg",
     "static/media/10.jpg": "/Mane/static/media/10.09e6d0fd9459c10fe848.jpg",
-    "static/media/11.jpg": "/Mane/static/media/11.acfe6da944eba44eeb2a.jpg",
     "static/media/15.jpg": "/Mane/static/media/15.94730ba8d3a4dd654813.jpg",
     "static/media/16.jpg": "/Mane/static/media/16.e0c79d1c9ec60c965ff6.jpg",
     "static/media/7.jpg": "/Mane/static/media/7.ccd068ce1cf0c2bcd230.jpg",
@@ -25,6 +26,7 @@
     "static/media/21.jpg": "/Mane/static/media/21.66904a1e1766f368281c.jpg",
     "static/media/13.jpg": "/Mane/static/media/13.c5dd622e668acdc33417.jpg",
     "static/media/19.jpg": "/Mane/static/media/19.cc832729f9df9fe7ea0d.jpg",
+    "static/media/11.jpg": "/Mane/static/media/11.acfe6da944eba44eeb2a.jpg",
     "static/media/14.jpg": "/Mane/static/media/14.3a578cbd418159b94812.jpg",
     "static/media/18.jpg": "/Mane/static/media/18.4f0f251cf41d3d858f2d.jpg",
     "static/media/igor.jpeg": "/Mane/static/media/igor.60988862b4f214ffa005.jpeg",
@@ -54,12 +56,12 @@
     "static/media/school.png": "/Mane/static/media/school.24df3b35c589ae4e508a.png",
     "static/media/magneto.png": "/Mane/static/media/magneto.aa833b5fb9179580a881.png",
     "index.html": "/Mane/index.html",
-    "main.df10cbd2.css.map": "/Mane/static/css/main.df10cbd2.css.map",
-    "main.1c3b7f79.js.map": "/Mane/static/js/main.1c3b7f79.js.map",
+    "main.d09aa761.css.map": "/Mane/static/css/main.d09aa761.css.map",
+    "main.343603b0.js.map": "/Mane/static/js/main.343603b0.js.map",
     "787.dfe67ba6.chunk.js.map": "/Mane/static/js/787.dfe67ba6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df10cbd2.css",
-    "static/js/main.1c3b7f79.js"
+    "static/css/main.d09aa761.css",
+    "static/js/main.343603b0.js"
   ]
 }
