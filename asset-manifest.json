@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mane/static/css/main.28036689.css",
-    "main.js": "/Mane/static/js/main.ed71ca31.js",
+    "main.css": "/Mane/static/css/main.cd44f926.css",
+    "main.js": "/Mane/static/js/main.b174629a.js",
     "static/js/787.dfe67ba6.chunk.js": "/Mane/static/js/787.dfe67ba6.chunk.js",
     "static/media/JetKids.mp4": "/Mane/static/media/JetKids.31cbfeb6efd75af196c9.mp4",
     "static/media/aboutUs.mp4": "/Mane/static/media/aboutUs.84c62643b46c689d3290.mp4",
@@ -22,7 +22,6 @@
     "static/media/9.jpg": "/Mane/static/media/9.68659f4cdd581e253d1a.jpg",
     "static/media/2.jpg": "/Mane/static/media/2.43c8e8ef56381e57d87b.jpg",
     "static/media/12.jpg": "/Mane/static/media/12.49e08ff86050cffcc876.jpg",
-    "static/media/type1.jpg": "/Mane/static/media/type1.808d8de94d15459d8ea1.jpg",
     "static/media/21.jpg": "/Mane/static/media/21.66904a1e1766f368281c.jpg",
     "static/media/13.jpg": "/Mane/static/media/13.c5dd622e668acdc33417.jpg",
     "static/media/19.jpg": "/Mane/static/media/19.cc832729f9df9fe7ea0d.jpg",
@@ -36,18 +35,19 @@
     "static/media/contrast4.png": "/Mane/static/media/contrast4.e91ea29a9c9f9be31045.png",
     "static/media/contrast3.png": "/Mane/static/media/contrast3.8714694418a1ebbb2a6e.png",
     "static/media/contrast5.png": "/Mane/static/media/contrast5.e56f664dbc0b20db52b6.png",
-    "static/media/type3.jpg": "/Mane/static/media/type3.63ace7e683cd07515276.jpg",
-    "static/media/julia.jpg": "/Mane/static/media/julia.604dcb72bf299690da76.jpg",
     "static/media/contrast6.png": "/Mane/static/media/contrast6.5ea400ce2ddd7d25abf6.png",
-    "static/media/type2.jpg": "/Mane/static/media/type2.bb4caffc3edc36230369.jpg",
     "static/media/contrast.png": "/Mane/static/media/contrast.2595988b26d3adb6b065.png",
     "static/media/1.png": "/Mane/static/media/1.3849c345f0bb3cc3aca6.png",
+    "static/media/type1.jpg": "/Mane/static/media/type1.8a102ee1478166b52f33.jpg",
     "static/media/british.jpg": "/Mane/static/media/british.8a404d92df20c6647609.jpg",
     "static/media/3.jpeg": "/Mane/static/media/3.98fbae07c53f1fcca038.jpeg",
     "static/media/provanse.jpeg": "/Mane/static/media/provanse.28016131a0eb87e0e9c7.jpeg",
     "static/media/shato.jpg": "/Mane/static/media/shato.d6368e0427cfd38c2f2b.jpg",
     "static/media/4.jpeg": "/Mane/static/media/4.5ab1ff29c7620e709cda.jpeg",
+    "static/media/type2.jpg": "/Mane/static/media/type2.d6ba582f7101231129dc.jpg",
     "static/media/university.png": "/Mane/static/media/university.d6ebab0a80ca3a8fafcb.png",
+    "static/media/type3.jpg": "/Mane/static/media/type3.965e237838989517eacc.jpg",
+    "static/media/julia.jpg": "/Mane/static/media/julia.859135da56d5991b522c.jpg",
     "static/media/seasons.jpg": "/Mane/static/media/seasons.ed8b10d4f7cc9c17298f.jpg",
     "static/media/logo.png": "/Mane/static/media/logo.e09c266daad64cf88a14.png",
     "static/media/krok.jpg": "/Mane/static/media/krok.f90d2e5b9c84da950284.jpg",
@@ -56,12 +56,12 @@
     "static/media/school.png": "/Mane/static/media/school.24df3b35c589ae4e508a.png",
     "static/media/magneto.png": "/Mane/static/media/magneto.aa833b5fb9179580a881.png",
     "index.html": "/Mane/index.html",
-    "main.28036689.css.map": "/Mane/static/css/main.28036689.css.map",
-    "main.ed71ca31.js.map": "/Mane/static/js/main.ed71ca31.js.map",
+    "main.cd44f926.css.map": "/Mane/static/css/main.cd44f926.css.map",
+    "main.b174629a.js.map": "/Mane/static/js/main.b174629a.js.map",
     "787.dfe67ba6.chunk.js.map": "/Mane/static/js/787.dfe67ba6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28036689.css",
-    "static/js/main.ed71ca31.js"
+    "static/css/main.cd44f926.css",
+    "static/js/main.b174629a.js"
   ]
 }
