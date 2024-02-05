@@ -29,7 +29,7 @@ function PopUpQuiz({ isOpend, close }) {
    
 
     useEffect(() => {
-        const popup = document.querySelector('.PopUpQuiz')
+        const popup = document.querySelector('.PopUpQuiz_opened')
         function closeByOverlayClick(evt) {
             if (evt.target === evt.currentTarget) {
                 close();
@@ -136,6 +136,14 @@ function PopUpQuiz({ isOpend, close }) {
         {
             'id': '5',
             'name': 'Ресторана'
+        },
+        {
+            'id': '6',
+            'name': 'Отеля'
+        },
+        {
+            'id': '7',
+            'name': 'СПА центра'
         },
     ]
 

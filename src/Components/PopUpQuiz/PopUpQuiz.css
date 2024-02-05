@@ -148,6 +148,7 @@
 }
 
 .PopUpQuiz__more {
+    color: #000;
     border-radius: 5px;
     border: 1px solid #8a8a8a;
     padding: 10px 20px;
@@ -383,6 +384,14 @@
 }
 
 @media screen and (max-width: 450px) {
+    .PopUpQuiz__container {
+        margin: 40px 10px 0;
+    }
+
+    .PopUpQuiz__container-first {
+        height: 490px;
+    }
+
     .PopUpQuiz__title {
         font-size: 24px;
     }

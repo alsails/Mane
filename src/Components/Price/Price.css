@@ -1,6 +1,14 @@
+.price__section {
+    max-width: 1280px;
+    margin: 65px auto;
+    padding: 65px 0 0;
+
+    /* background-color: #f5f5f5; */
+}
+
 .price {
-    max-width: 1440px;
-    margin: 135px 0 0 0;
+    max-width: calc(100% - 60px);
+    margin: 0 30px;
 }
 
 .price__container {
@@ -23,6 +31,8 @@
     height: 350px;
 
     position: relative;
+
+    background-color: #fafafa;
 }
 
 .price__card-title {
@@ -77,6 +87,38 @@
     margin: 0 0 15px;
     bottom: 0;
 }
+
+.price__info {
+    padding: 0;
+    margin: 50px 0 0;
+
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.price__info-button {
+    padding: 0;
+    margin: 0;
+
+    color: #ED202A;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    border: none;
+    background-color: transparent;
+    transition: color .3s linear;
+}
+
+.price__info-button:hover {
+    cursor: pointer;
+    color: #f18f94;
+}
+
 
 @media screen and (max-width: 1320px) {
     .price {
@@ -181,7 +223,7 @@
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 700px) {
     .price__card {
         height: 110px;
     }
@@ -213,13 +255,17 @@
         max-width: 120px;
     }
 
-    .price__card-about_text {
-        font-size: 12px;
-    }
-
     .price__card-price {
         font-size: 15px;
         max-width: 110px;
+    }
+
+    .price__info {
+        font-size: 20px;
+    }
+    
+    .price__info-button {
+        font-size: 20px;
     }
 }
 
@@ -253,6 +299,18 @@
         font-size: 18px;
         max-width: 100%;
 
+        text-align: center;
+    }
+
+    .price__info {
+        font-size: 16px;
+    }
+    
+    .price__info-button {
+        font-size: 16px;
+    }
+
+    .price__info {
         text-align: center;
     }
 }

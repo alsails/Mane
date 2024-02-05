@@ -64,6 +64,7 @@ function AboutUs() {
                         <p className='about__statistics_text'>гарантия качества</p>
                     </div>
             </div>
+            
             <div className='aboutUs__container'>
                 <div className='education__container'>
                     <p className='education__info'><span className='education__info_name'>НАШЕ</span>   <span className='education__info_name'>ОБРАЗОВАНИЕ</span></p>

@@ -31,7 +31,7 @@ function Header({handlePopUpMenuOpen}) {
 
   return (
     <>
-      <header className='header'>
+      <header className={`header ${isWidth > 650 ? 'sticky' : ''}`} >
         {(isWidth > 650) && (
           <div className="header__container">
             <NavLink className='header__logo' to={`/`}>
