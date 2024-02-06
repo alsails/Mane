@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.css": "/Mane/static/css/main.cd44f926.css",
-    "main.js": "/Mane/static/js/main.5ed1a8a1.js",
+    "main.css": "/Mane/static/css/main.89a8755e.css",
+    "main.js": "/Mane/static/js/main.b26238e6.js",
     "static/js/787.dfe67ba6.chunk.js": "/Mane/static/js/787.dfe67ba6.chunk.js",
     "static/media/JetKids.mp4": "/Mane/static/media/JetKids.31cbfeb6efd75af196c9.mp4",
     "static/media/aboutUs.mp4": "/Mane/static/media/aboutUs.84c62643b46c689d3290.mp4",
     "static/media/igor.jpeg": "/Mane/static/media/igor.60988862b4f214ffa005.jpeg",
+    "static/media/17.png": "/Mane/static/media/17.03d26b78adeed52e36fe.png",
+    "static/media/15.png": "/Mane/static/media/15.17cf62bc29da8c1e74c7.png",
+    "static/media/16.png": "/Mane/static/media/16.c4f4b9650a16d8400438.png",
+    "static/media/14.png": "/Mane/static/media/14.cd23771574f357157754.png",
+    "static/media/13.png": "/Mane/static/media/13.05693ec5817dfb66f144.png",
     "static/media/6.jpg": "/Mane/static/media/6.cc7001cfbd76a5561e84.jpg",
     "static/media/1.jpg": "/Mane/static/media/1.1b4ba7558b0a3a65ed48.jpg",
     "static/media/5.jpg": "/Mane/static/media/5.171a06580b086a37655c.jpg",
@@ -51,13 +56,17 @@
     "static/media/logo.png": "/Mane/static/media/logo.e09c266daad64cf88a14.png",
     "static/media/national.jpg": "/Mane/static/media/national.98eb344cfaacc492e45a.jpg",
     "static/media/seasons.jpg": "/Mane/static/media/seasons.75dc1c2faa4a075865cc.jpg",
+    "static/media/slick.svg": "/Mane/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Mane/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Mane/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Mane/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Mane/index.html",
-    "main.cd44f926.css.map": "/Mane/static/css/main.cd44f926.css.map",
-    "main.5ed1a8a1.js.map": "/Mane/static/js/main.5ed1a8a1.js.map",
+    "main.89a8755e.css.map": "/Mane/static/css/main.89a8755e.css.map",
+    "main.b26238e6.js.map": "/Mane/static/js/main.b26238e6.js.map",
     "787.dfe67ba6.chunk.js.map": "/Mane/static/js/787.dfe67ba6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd44f926.css",
-    "static/js/main.5ed1a8a1.js"
+    "static/css/main.89a8755e.css",
+    "static/js/main.b26238e6.js"
   ]
 }
