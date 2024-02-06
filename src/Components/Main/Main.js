@@ -6,6 +6,7 @@ import PromoQuiz from '../PromoQuiz/PromoQuiz'
 import Video from '../Video/Video';
 import Price from '../Price/Price';
 import AboutPrice from '../../AboutPrice/AboutPrice';
+import Reviews from '../Reviews/Reviews';
 
 function Main() {
     return (
@@ -16,6 +17,7 @@ function Main() {
             <Portfolio />
             <Price />
             <AboutPrice />
+            <Reviews />
             <Contacts />
             <Video />
         </>

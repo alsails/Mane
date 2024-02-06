@@ -18,7 +18,7 @@ function Price() {
         bodyElement.style.overflow = 'auto';
     }
     return (
-        <section className='price__section'>
+        <section className='price__section' id='price'>
             <div className='price'>
                 <Title start='Ор' end='иентировочная стоимость услуг' />
                 <div className='price__container'>

@@ -6,8 +6,10 @@ import './Header.css';
 import Logo from '../../images/logo.png'
 import PopUpMenu from '../PopUpMenu/PopUpMenu'
 
-function Header({handlePopUpMenuOpen}) {
+function Header() {
+  const [isPopUpMenuOpen, setIsPopUpMenuOpen] = useState(false);
   const [isWidth, setisWidth] = useState(window.innerWidth);
+  const bodyElement = document.querySelector('body');
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -26,6 +28,16 @@ function Header({handlePopUpMenuOpen}) {
         });
       }, 100);
     }
+  }
+
+  function handlePopUpMenuOpen() {
+    setIsPopUpMenuOpen(true)
+    bodyElement.style.overflow = 'hidden';
+  }
+
+  function closePopUp() {
+    setIsPopUpMenuOpen(false)
+    bodyElement.style.overflow = 'auto';
   }
 
 
@@ -49,6 +61,17 @@ function Header({handlePopUpMenuOpen}) {
                   О нас
                 </Link>
               </li>
+              <li className='header__nav-link'>
+                <Link
+                  to={location.pathname === "/" ? "price" : ""}
+                  className="nav__link"
+                  smooth={true}
+                  duration={2000}
+                  onClick={() => handleAboutUsClick('price')}
+                >
+                  Услуги
+                </Link>
+              </li>
               <li
                 className='header__nav-link'>
                 <Link
@@ -56,6 +79,17 @@ function Header({handlePopUpMenuOpen}) {
                   onClick={handlePopUpMenuOpen}
                 >
                   Портфолио
+                </Link>
+              </li>      
+              <li className='header__nav-link'>
+                <Link
+                  to={location.pathname === "/" ? "reviews" : ""}
+                  className="nav__link"
+                  smooth={true}
+                  duration={2000}
+                  onClick={() => handleAboutUsClick('reviews')}
+                >
+                  Отзывы
                 </Link>
               </li>
               <li className='header__nav-link'>
@@ -78,6 +112,7 @@ function Header({handlePopUpMenuOpen}) {
             <img src={Logo} alt='Логотип Mano' className='header__logo_small' />
           </div>
         }
+        <PopUpMenu isOpend={isPopUpMenuOpen} close={closePopUp} />
       </header>
     </>
   )

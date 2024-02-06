@@ -78,6 +78,7 @@ function Project() {
                     )
                 }
             </div>
+            <button className='project__button'>Оставить заявку на дизайн-проект</button>
         </section>
     )
 }
