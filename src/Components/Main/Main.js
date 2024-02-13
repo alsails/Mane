@@ -5,7 +5,7 @@ import Contacts from '../Contacts/Contacts';
 import PromoQuiz from '../PromoQuiz/PromoQuiz'
 import Video from '../Video/Video';
 import Price from '../Price/Price';
-import AboutPrice from '../../AboutPrice/AboutPrice';
+import AboutPrice from '../AboutPrice/AboutPrice';
 import Reviews from '../Reviews/Reviews';
 
 function Main() {

@@ -1,5 +1,5 @@
 .price__section {
-    max-width: 1280px;
+    max-width: 100%;
     margin: 65px auto;
     padding: 65px 0;
 
@@ -7,8 +7,9 @@
 }
 
 .price {
-    max-width: calc(100% - 60px);
-    margin: 0 30px;
+    max-width: 1280px;
+    width: calc(100% - 60px);
+    margin: 0 auto;
 }
 
 .price__container {
@@ -123,7 +124,7 @@
 @media screen and (max-width: 1320px) {
     .price {
         width: calc(100% - 60px);
-        margin: 105px 30px 0;
+        margin: 0 30px 0;
     }
 
     .price__container {

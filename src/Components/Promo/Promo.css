@@ -1,5 +1,5 @@
 .promo {
-    max-width: 1280px;
+    max-width: 100%;
     width: 100%;
     padding: 65px 0 65px;
 
@@ -7,8 +7,9 @@
 }
 
 .promo__container {
-    max-width: calc(100% - 60px);
-    margin: 0 30px;
+    max-width: 1280px;
+    width: calc(100% - 60px);
+    margin: 0 auto;
 
     display: grid;
 
@@ -37,6 +38,8 @@
     height: 100%;
     max-width: 855px;
     max-height: 570px;
+
+    object-fit: cover;
 }
 
 .promo__post:first-child {
@@ -150,21 +153,21 @@
 }
 
 @media screen and (max-width: 1320px) {
-    .promo {
+    .promo__container {
         width: calc(100% - 40px);
         margin: 0 20px;
     }
 }
 
 @media screen and (max-width: 900px) {
-    .promo {
+    .promo__container {
         max-width: 100%;
         grid-template-rows: repeat(2, 200px);
     }
 }
 
 @media screen and (max-width: 800px) {
-    .promo {
+    .promo__container {
         grid-template-columns: repeat(5, 1fr);
         grid-template-areas:
             "A A A B B"
@@ -173,14 +176,14 @@
 }
 
 @media screen and (max-width: 760px) {
-    .promo {
+    .promo__container {
         width: 760px;
         max-width: calc(100% - 40px);
     }
 }
 
 @media screen and (max-width: 700px) {
-    .promo {
+    .promo__container {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 140px 140px 200px;
         grid-template-areas:
@@ -191,7 +194,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .promo {
+    .promo__container {
         margin: 0 45px;
         max-width: calc(100% - 90px);
         grid-template-columns: 1fr;
@@ -204,7 +207,7 @@
 }
 
 @media screen and (max-width: 500px) {
-    .promo {
+    .promo__container {
         max-width: calc(100% - 40px);
         margin: 0 20px;
     }

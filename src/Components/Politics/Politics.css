@@ -1,0 +1,55 @@
+.politics__section {
+    max-width: 1280px;
+    margin: 65px auto;
+}
+
+.politics_title {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.politics {
+    max-width: 1220px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.politics_text {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-decoration: none;
+
+    margin: 0;
+    padding: 0;
+
+    text-align: justify; 
+}
+
+.politics_name {
+    font-size: 20px;
+    font-weight: 400;
+
+    margin: 10px 0 0;
+}
+
+.politics_point {
+    padding-left: 30px;
+}
+
+.politics_point-list {
+    font-size: 17px;
+    padding-left: 60px;
+}

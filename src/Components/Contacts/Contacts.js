@@ -93,7 +93,7 @@ function Contacts() {
                 </form>
                 <ul className='contacts__list'>
                     <li className='contacts__list-contact'>8 916 672 62 25</li>
-                    <li className='contacts__list-contact contacts__list-contact_hover'><a className='contacts__list-contact' target='_blank' href='https://t.me/juliamanedesign'>Telegram</a></li>
+                    <li className='contacts__list-contact contacts__list-contact_hover'><a className='contacts__list-contact contacts__list-contact_tg' target='_blank' href='https://t.me/juliamanedesign'>Telegram</a></li>
                     <li className='contacts__list-contact'>Ленинская слобода 19, БЦ Омега Плаза</li>
                     <li className='contacts__list-contact'>juliamanedesign@gmail.com</li>
                 </ul>

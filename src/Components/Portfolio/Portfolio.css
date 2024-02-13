@@ -27,7 +27,7 @@
 }
 
 .portfolio__type_more {
-    border: 2px solid #ED202A;
+    border: 1px solid #ED202A;
     border-radius: 5px;
     background: transparent;
 
@@ -37,12 +37,11 @@
     font-weight: 300;
     line-height: normal;
 
-    padding: 18px 34px;
+    padding: 10px 20px;
 
     transition: .3s;
 
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 .portfolio__type_more:hover {

@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import InputMask from 'react-input-mask';
 import { send } from 'emailjs-com';
+import { Link } from "react-router-dom";
 
 import './PopUpQuiz.css';
 
@@ -327,7 +328,7 @@ function PopUpQuiz({ isOpend, close }) {
                                                 onChange={handleCheckboxChange}
                                                 className="PopUpQuiz__container-form_checkbox"
                                             />
-                                            Я согласен с <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" className="PopUpQuiz__container-form_link">политикой конфиденциальности</a>
+                                            Я согласен с <Link to="/politics" target="_blank" rel="noopener noreferrer" className="PopUpQuiz__container-form_link">политикой конфиденциальности</Link>
                                         </label>
                                     </form>
                                 </div>

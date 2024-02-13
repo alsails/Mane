@@ -8,6 +8,8 @@ import AllPortfolio from '../AllPortfolio/AllPortfolio';
 import Project from '../Project/Project';
 import Main from "../Main/Main";
 import PopUpMenu from "../PopUpMenu/PopUpMenu";
+import Requisites from "../../Requisites/Requisites";
+import Politics from "../Politics/Politics";
 
 function App() {
   return (
@@ -19,7 +21,7 @@ function App() {
             path="/"
             element={<Main/>}
           />
-          <Route
+          {/* <Route
             path="/portfolio/:categoryId"
             element={<AllPortfolio />}
           />
@@ -27,6 +29,14 @@ function App() {
             path="/project/:projectId"
             element={<Project  />}
           />
+          <Route
+            path="/requisites"
+            element={<Requisites  />}
+          />
+          <Route
+            path="/politics"
+            element={<Politics  />}
+          /> */}
         </Routes>
       </main>
       <Footer />
