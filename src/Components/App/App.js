@@ -21,7 +21,7 @@ function App() {
             path="/"
             element={<Main/>}
           />
-          {/* <Route
+          <Route
             path="/portfolio/:categoryId"
             element={<AllPortfolio />}
           />
@@ -36,7 +36,7 @@ function App() {
           <Route
             path="/politics"
             element={<Politics  />}
-          /> */}
+          />
         </Routes>
       </main>
       <Footer />

@@ -25,42 +25,9 @@ function Footer() {
                     to={`/`}
                     className="footer__logo"
                 >
-                    <img src={Logo} alt='Логотип Mano' className='footer__logo' /></NavLink>
-                {isAllowedUrl && (
-                    <>
-                        <nav className='footer__nav-links'>
-                            <li className='footer__nav-link'>
-                                <Link
-                                    to="aboutUs"
-                                    className="nav__link"
-                                    smooth={true}
-                                    duration={1000}
-                                >
-                                    О нас
-                                </Link>
-                            </li>
-                            <li className='footer__nav-link'>
-                                <Link
-                                    to="portfolio"
-                                    className="nav__link"
-                                    smooth={true}
-                                    duration={1000}
-                                >
-                                    Портфолио
-                                </Link>
-                            </li>
-                            <li className='footer__nav-link'>
-                                <Link
-                                    to="contacts"
-                                    className="nav__link"
-                                    smooth={true}
-                                    duration={1000}
-                                >
-                                    Контакты
-                                </Link>
-                            </li>
-                        </nav>
-                    </>)}
+                    <img src={Logo} alt='Логотип Mano' className='footer__logo' />
+                </NavLink>
+                <div className="footer__info"></div>
             </div>
             {isAllowedUrl && (
                 <nav className="footer__nav">

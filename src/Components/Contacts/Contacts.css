@@ -1,4 +1,4 @@
-x@keyframes shake {
+@keyframes shake {
 
     10%,
     90% {
@@ -309,6 +309,12 @@ x@keyframes shake {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .contacts__form-button {
+        border: 1px solid #ED202A;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .contacts {
         margin-top: 80px;
@@ -346,6 +352,14 @@ x@keyframes shake {
     .contacts__form_checkbox {
         width: 11px;
         height: 11px;
+    }
+
+    .contacts__list-contact_tg::before {
+        width: 16px;
+        height: 16px;
+        background-size: 16px 16px;
+        top: 0;
+        left: 50px;
     }
 }
 

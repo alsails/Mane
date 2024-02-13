@@ -79,6 +79,66 @@
 @media screen and (max-width: 750px) {
     .review__title {
         padding-top: 10px;
+    }
 
+    .review__text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .review__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .slick-slider {
+        margin: 70px 20px;
+        padding: 0 10px;
+        min-height: 600px
+    }
+
+    .review__title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .review__text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .slick-slider {
+        margin: 45px 20px;
+    }
+
+    .review__title {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .review__text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .slick-slider {
+        margin: 45px 20px;
+    }
+
+    .review__title {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .slick-slider {
+        margin: 45px 0;
+    }
+
+    .review__text {
+        padding: 0 10px;
     }
 }

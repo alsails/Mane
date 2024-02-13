@@ -247,6 +247,14 @@
         font-size: 17px;
         max-width: 125px;
     }
+
+    .price__info {
+        font-size: 18px;
+    }
+
+    .price__info-button {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 650px) {

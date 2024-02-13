@@ -27,17 +27,16 @@
 }
 
 .portfolio__type_more {
-    border: 1px solid #ED202A;
     border-radius: 5px;
     background: transparent;
 
-    color: #000;
+    color: #ED202A;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
 
-    padding: 10px 20px;
+    margin: 18px 20px 0;
 
     transition: .3s;
 
@@ -47,7 +46,7 @@
 .portfolio__type_more:hover {
     cursor: pointer;
 
-    box-shadow: inset 0px 0px 0px 1px #ED202A;
+    color: #f18f94;
 }
 
 .portfolio__com {
@@ -83,21 +82,20 @@
     }
 
     .portfolio__type_more {
-        padding: 16px 32px;
+       
         font-size: 22px;
     }
 }
 
 @media screen and (max-width: 900px) {
     .portfolio__type_more {
-        padding: 12px 28px;
         font-size: 20px;
     }
 }
 
 @media screen and (max-width: 700px) {
     .portfolio {
-        margin: 100px 30px 0;
+        margin: 65px 30px 0;
     }
 
     .portfolio__type_name {
@@ -108,8 +106,8 @@
     }
 
     .portfolio__type_more {
-        padding: 12px 20px;
         font-size: 18px;
+        margin-right: 0;
     }
 }
 
@@ -132,7 +130,6 @@
     }
 
     .portfolio__type_more {
-        padding: 12px 20px;
         font-size: 16px;
     }
 }
@@ -146,7 +143,6 @@
     }
 
     .portfolio__type_more {
-        padding: 10px 20px;
         font-size: 15px;
     }
 }
@@ -164,7 +160,6 @@
     }
 
     .portfolio__type_more {
-        padding: 10px 20px;
         font-size: 13px;
     }
 }
@@ -182,7 +177,6 @@
     }
 
     .portfolio__type_more {
-        padding: 9px 14px;
         font-size: 12px;
     }
 }

@@ -412,7 +412,7 @@
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
     .aboutPrice__project-slider {
         grid-template-columns: 86% 7% 7%;
     }
@@ -464,5 +464,172 @@
     .aboutPrice__project-first {
         padding: 0 10px 0 10px;
     }
+
+    .aboutPrice__release-slider {
+        min-height: 250px;
+    }
 }
 
+@media screen and (max-width: 700px) {
+    .aboutPrice__project_title {
+        font-size: 14px;
+    }
+
+    .aboutPrice__project_list-text {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .aboutPrice__project_title-active {
+        font-size: 20px;
+    }
+
+    .aboutPrice__release_text {
+        margin: 0;
+        font-size: 14px;
+
+        max-width: 380px;
+    }
+
+    .aboutPrice__release_title  {
+        font-size: 14px;
+    }
+    
+    .aboutPrice__release_title-active {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .aboutPrice__release-slider {
+        min-height: 230px;
+    }
+
+    .aboutPrice__project-slider {
+        min-height: 250px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .aboutPrice__container_quote {
+        font-size: 16px;
+        margin: 55px auto 55px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .aboutPrice__project_title {
+        font-size: 12px;
+    }
+
+    .aboutPrice__project_title-active {
+        font-size: 18px;
+    }
+
+    .aboutPrice__release_title  {
+        font-size: 12px;
+    }
+
+    .aboutPrice__release_title-active {
+        font-size: 18px;
+    }
+
+    .aboutPrice__project-slider {
+        min-height: 230px;
+    }
+
+    .aboutPrice__project-slider {
+        grid-template-columns: 82% 9% 9%;
+    }
+
+    .aboutPrice__project-slider_second {
+        grid-template-columns: 9% 82% 9%;
+    }
+
+    .aboutPrice__project-slider_third {
+        grid-template-columns: 9% 9% 82%; 
+    }
+
+    .aboutPrice__release-slider {
+        grid-template-columns: 73% 9% 9% 9%;
+    }
+
+    .aboutPrice__release-slider_second {
+        grid-template-columns: 9% 73% 9% 9%;
+    }
+
+    .aboutPrice__release-slider_third {
+        grid-template-columns: 9% 9% 73% 9%;
+    }
+
+    .aboutPrice__release-slider_fourth {
+        grid-template-columns: 9% 9% 9% 73%;
+    }
+
+    .aboutPrice__container_text {
+        padding: 0;
+        margin: 10px 0 0 20px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .aboutPrice__container_text {
+        margin: 10px 0 0;
+    }
+
+    .aboutPrice__project-slider {
+        min-height: 350px;
+    }
+
+    .aboutPrice__project-second {
+        padding: 0 15px 0 5px;
+    }
+
+    .aboutPrice__project-third {
+        padding: 0 15px 0 5px;
+    }
+
+    .aboutPrice__project-first {
+        padding: 0 15px 0 5px;
+    }
+
+    .aboutPrice__project-active {
+        padding: 0 15px 0;
+    }
+
+    .aboutPrice__release-slider {
+        min-height: 320px;
+    }
+
+    .aboutPrice__release_text {
+        font-size: 12px;
+    }
+
+    .aboutPrice__release-second {
+        padding: 0 17px 0 3px;
+    }
+
+    .aboutPrice__release-third {
+        padding: 0 17px 0 3px;
+    }
+
+    .aboutPrice__release-first {
+        padding: 0 17px 0 5px;
+    }
+
+    .aboutPrice__release-fourth {
+        padding: 0 17px 0 3px;
+    }
+    
+    .aboutPrice__release-active {
+        padding: 0 13px 0;
+    }
+
+    .aboutPrice__container_text {
+        font-size: 12px;
+    }
+
+    .aboutPrice__container_quote {
+        font-size: 14px;
+    }
+}

@@ -46,8 +46,9 @@ function Header() {
       <header className={`header ${isWidth > 650 ? 'sticky' : ''}`} >
         {(isWidth > 650) && (
           <div className="header__container">
-            <NavLink className='header__logo' to={`/`}>
+            <NavLink className='header__logo_container' to={`/`}>
               <img src={Logo} alt='Логотип Mano' className='header__logo' />
+              <div className="red__line"></div>
             </NavLink>
             <nav className='header__nav-links'>
               <li className='header__nav-link'>

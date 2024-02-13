@@ -176,7 +176,7 @@
     text-decoration: none;
     text-transform: uppercase;
 
-    margin: 0 auto;
+    margin: 0 auto 30px;
     display: block;
 }
 
@@ -219,6 +219,12 @@
     .project__info-text {
         font-size: 18px;
     }
+
+    .project__button {
+        font-size: 16px;
+    
+        padding: 16px 16px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -250,6 +256,12 @@
         flex-direction: column;
 
         row-gap: 25px;
+    }
+
+    .project__button {
+        font-size: 14px;
+    
+        padding: 12px 12px;
     }
 }
 
@@ -295,6 +307,12 @@
     .project__cover-square {
         bottom: 15px;
         font-size: 24px;
+    }
+
+    .project__button {
+        font-size: 12px;
+    
+        padding: 10px 10px;
     }
 }
 
@@ -368,5 +386,11 @@
     .project__cover-square {
         bottom: 10px;
         font-size: 13px;
+    }
+
+    .project__button {
+        font-size: 12px;
+    
+        padding: 8px 8px;
     }
 }

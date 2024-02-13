@@ -44,4 +44,8 @@
         width: calc(100% - 40px);
         margin: 0 20px 0;
     }
+
+    .video__section {
+        padding: 65px 0 105px;
+    }
 }
