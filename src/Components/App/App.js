@@ -8,7 +8,7 @@ import AllPortfolio from '../AllPortfolio/AllPortfolio';
 import Project from '../Project/Project';
 import Main from "../Main/Main";
 import PopUpMenu from "../PopUpMenu/PopUpMenu";
-import Requisites from "../../Requisites/Requisites";
+import Requisites from "../Requisites/Requisites";
 import Politics from "../Politics/Politics";
 
 function App() {

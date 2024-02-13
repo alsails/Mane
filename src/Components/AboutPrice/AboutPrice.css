@@ -399,10 +399,32 @@
         grid-template-columns: 79% 7% 7% 7%;
     }
 
-    .aboutPrice__project-slider_second {
-        
+    .aboutPrice__release-slider_second {
+        grid-template-columns: 7% 79% 7% 7%;
+    }
+
+    .aboutPrice__release-slider_third {
+        grid-template-columns: 7% 7% 79% 7%;
+    }
+
+    .aboutPrice__release-slider_fourth {
+        grid-template-columns: 7% 7% 7% 79%;
     }
 }
+
+@media screen and (max-width: 750px) {
+    .aboutPrice__project-slider {
+        grid-template-columns: 86% 7% 7%;
+    }
+
+    .aboutPrice__project-slider_second {
+        grid-template-columns: 7% 86% 7%;
+    }
+
+    .aboutPrice__project-slider_third {
+        grid-template-columns: 7% 7% 86%; 
+    }
+} 
 
 @media screen and (max-width: 700px) {
     .aboutPrice__release-active {
@@ -443,3 +465,4 @@
         padding: 0 10px 0 10px;
     }
 }
+

@@ -1,4 +1,4 @@
-@keyframes shake {
+x@keyframes shake {
 
     10%,
     90% {
@@ -222,6 +222,16 @@
     }
 }
 
+@media screen and (max-width: 850px) {
+    .contacts__list-contact_tg::before {
+        width: 16px;
+        height: 16px;
+        background-size: 16px 16px;
+        top: 0;
+        left: -20px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .contacts__container {
         margin: 55px 0 0 50px;
@@ -291,8 +301,11 @@
     }
 
     .contacts__list-contact_tg::before {
-        top: -4px;
-        left: 37px;
+        width: 16px;
+        height: 16px;
+        background-size: 16px 16px;
+        top: 0;
+        left: 40px;
     }
 }
 
