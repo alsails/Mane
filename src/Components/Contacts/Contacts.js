@@ -1,6 +1,7 @@
 import InputMask from 'react-input-mask';
 import { useState, useEffect } from "react";
 import { send } from 'emailjs-com';
+import { NavLink } from "react-router-dom";
 
 
 import './Contacts.css';
@@ -86,7 +87,7 @@ function Contacts() {
                             onChange={handleCheckboxChange}
                             className="contacts__form_checkbox"
                         />
-                        Я согласен с <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" className="PopUpQuiz__container-form_link">политикой конфиденциальности</a>
+                        Я согласен с <NavLink to={`/politics`} target="_blank" rel="noopener noreferrer" className="PopUpQuiz__container-form_link">политикой конфиденциальности</NavLink>
                     </label>
                     <button disabled={!isButtonActive} className='contacts__form-button' onClick={handleSubmit}>Оставить заявку</button>
                     <span className='contacts__form-error'>Произошла ошибка при отправке</span>

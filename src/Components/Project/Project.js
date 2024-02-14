@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { useNavigate } from 'react-router-dom';
-
+import PopUpQuiz from '../PopUpQuiz/PopUpQuiz'
 import './Project.css';
 import { Com } from '../../Utils/PortfolioCards'
 import video from '../../video/JetKids.mp4'
@@ -18,6 +18,21 @@ function Project() {
     const item = Com.find(item => item.id === projectId);
     var images = item.images
     var texts = item.info
+
+    const bodyElement = document.querySelector('body');
+    const [isPopUpQuiz, setIsPopUpQuiz] = useState(false);
+
+
+    function handleopUpQuizOpens() {
+        setIsPopUpQuiz(true)
+        bodyElement.style.overflow = 'hidden';
+    }
+
+    function closePopUp() {
+        setIsPopUpQuiz(false)
+        bodyElement.style.overflow = 'auto';
+    }
+
 
     const [isWidth, setisWidth] = useState(window.innerWidth);
 
@@ -78,7 +93,8 @@ function Project() {
                     )
                 }
             </div>
-            <button className='project__button'>Оставить заявку на дизайн-проект</button>
+            <button onClick={handleopUpQuizOpens} className='project__button'>Оставить заявку на дизайн-проект</button>
+            <PopUpQuiz isOpend={isPopUpQuiz} close={closePopUp} />
         </section>
     )
 }
