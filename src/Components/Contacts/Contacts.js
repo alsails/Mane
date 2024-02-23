@@ -41,10 +41,10 @@ function Contacts() {
         }
 
         send(
-            'service_0z9xsb6',
-            'template_qzc13rc',
+            'service_wwgda2h',
+            'template_890pe4u',
             result,
-            '8ZMn8T5ZiI1Sz-ep0'
+            'p3R46pTZGW7ekAWRk'
         )
             .then((response) => {
                 clear()

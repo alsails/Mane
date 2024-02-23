@@ -94,10 +94,10 @@ function PopUpQuiz({ isOpend, close }) {
             }
 
             send(
-                'service_0z9xsb6', 
-                'template_4n9tgsq',
+                'service_wwgda2h',
+                'template_7lmfs0h',
                 result,
-                '8ZMn8T5ZiI1Sz-ep0'
+                'p3R46pTZGW7ekAWRk'
               )
                 .then((response) => {
                   console.log('SUCCESS!', response.status, response.text);

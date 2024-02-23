@@ -5,9 +5,11 @@ import { useState } from "react";
 import './Header.css';
 import Logo from '../../images/logo.png'
 import PopUpMenu from '../PopUpMenu/PopUpMenu'
+import Menu from "../Menu/Menu";
 
 function Header() {
   const [isPopUpMenuOpen, setIsPopUpMenuOpen] = useState(false);
+  const [isOpened, setIsOpened] = useState(false);
   const [isWidth, setisWidth] = useState(window.innerWidth);
   const bodyElement = document.querySelector('body');
   const location = useLocation();
@@ -16,6 +18,11 @@ function Header() {
   window.addEventListener('resize', function () {
     setisWidth(window.innerWidth);
   });
+
+
+  function togglePopup() {
+    isOpened ? closeAllPopup() : openPopupMenu()
+  }
 
   function handleAboutUsClick(block) {
     if (location.pathname !== "/") {
@@ -30,12 +37,17 @@ function Header() {
     }
   }
 
+  function openPopupMenu() {
+    setIsOpened(true)
+  }
+
   function handlePopUpMenuOpen() {
     setIsPopUpMenuOpen(true)
     bodyElement.style.overflow = 'hidden';
   }
 
-  function closePopUp() {
+  function closeAllPopup() {
+    setIsOpened(false)
     setIsPopUpMenuOpen(false)
     bodyElement.style.overflow = 'auto';
   }
@@ -81,7 +93,7 @@ function Header() {
                 >
                   Портфолио
                 </Link>
-              </li>      
+              </li>
               <li className='header__nav-link'>
                 <Link
                   to={location.pathname === "/" ? "reviews" : ""}
@@ -109,11 +121,19 @@ function Header() {
           </div>
         )}
         {(isWidth < 651) &&
-          <div className="header__container_small">
-            <img src={Logo} alt='Логотип Mano' className='header__logo_small' />
-          </div>
+          <>
+            <div className="header__container_small">
+              <img src={Logo} alt='Логотип Mano' className='header__logo_small' />
+              <div onClick={togglePopup} className={`header__hamburger-menu ${isOpened ? 'header__hamburger-menu_active' : ''}`}>
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+            </div>
+          </>
         }
-        <PopUpMenu isOpend={isPopUpMenuOpen} close={closePopUp} />
+        <PopUpMenu isOpend={isPopUpMenuOpen} close={closeAllPopup} />
+        <Menu isOpened={isOpened} close={closeAllPopup}/>
       </header>
     </>
   )
