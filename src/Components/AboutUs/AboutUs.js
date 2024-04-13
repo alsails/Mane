@@ -52,7 +52,7 @@ function AboutUs() {
             </div>
             <div className='about__statistics'>
                     <div className='about__statistics_container'>
-                        <p className='about__statistics_number'>50+</p>
+                        <p className='about__statistics_number'>100+</p>
                         <p className='about__statistics_text'>реализованных проектов</p>
                     </div>
                     <div className='about__statistics_container'>
