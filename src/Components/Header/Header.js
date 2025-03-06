@@ -123,7 +123,10 @@ function Header() {
         {(isWidth < 651) &&
           <>
             <div className="header__container_small">
-              <img src={Logo} alt='Логотип Mano' className='header__logo_small' />
+              <NavLink className='header__logo_container' to={`/`}>
+                <img src={Logo} alt='Логотип Mano' className='header__logo_small' />
+              </NavLink>
+
               <div onClick={togglePopup} className={`header__hamburger-menu ${isOpened ? 'header__hamburger-menu_active' : ''}`}>
                 <span></span>
                 <span></span>

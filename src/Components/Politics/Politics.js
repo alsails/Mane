@@ -1,4 +1,3 @@
-import Title from '../Title/Title';
 import './Politics.css';
 
 function Politics() {

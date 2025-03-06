@@ -1,4 +1,3 @@
-import { Link } from "react-scroll";
 import { NavLink, useLocation } from "react-router-dom";
 import { useState, useEffect } from 'react';
 
