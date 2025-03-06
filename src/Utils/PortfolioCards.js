@@ -285,6 +285,27 @@ import Exhibition5 from '../images/portfolio/Exhibition/5.jpg'
 import Exhibition6 from '../images/portfolio/Exhibition/6.jpg'
 import Exhibition7 from '../images/portfolio/Exhibition/7.jpg'
 
+import Holland from '../images/portfolio/Holland/1.jpg'
+import Holland2 from '../images/portfolio/Holland/2.jpg'
+import Holland3 from '../images/portfolio/Holland/3.jpg'
+import Holland4 from '../images/portfolio/Holland/4.jpg'
+import Holland5 from '../images/portfolio/Holland/5.jpg'
+import Holland6 from '../images/portfolio/Holland/6.jpg'
+import Holland7 from '../images/portfolio/Holland/7.jpg'
+import Holland8 from '../images/portfolio/Holland/8.jpg'
+import Holland9 from '../images/portfolio/Holland/9.jpg'
+import Holland10 from '../images/portfolio/Holland/10.jpg'
+import Holland11 from '../images/portfolio/Holland/11.jpg'
+import Holland12 from '../images/portfolio/Holland/12.jpg'
+import Holland13 from '../images/portfolio/Holland/13.jpg'
+import Holland14 from '../images/portfolio/Holland/14.jpg'
+import Holland15 from '../images/portfolio/Holland/15.jpg'
+import Holland16 from '../images/portfolio/Holland/16.jpg'
+import Holland17 from '../images/portfolio/Holland/17.jpg'
+import Holland18 from '../images/portfolio/Holland/18.jpg'
+import Holland19 from '../images/portfolio/Holland/19.jpg'
+import Holland20 from '../images/portfolio/Holland/20.jpg'
+
 export const Com = [
     {
         'id': '1',
@@ -1140,6 +1161,45 @@ export const Com = [
             'Идея нашей капсулы “Уральское Бали”',
             'Мы хотим помочь туристам в изучении нашей необъятной Родины и предоставить максимальный комфорт в путешествиях с помощью проектирования атмосферных эко-отелей по всей России. Наша капсула представляет собой мини версию лобби отеля.  Мы вдохновились природой и традициями Южного Урала. Это нашло отражение в орнаментах и флористике. А также уникальным местом - Каолиновым карьером «Уральское Бали»'
         ]
+    },
+    {
+        'id': '33',
+        't': 'hom',
+        'category': 'Квартиры',
+        'type': 'Квартира',
+        'name': 'Holland Park',
+        'img': Holland2,
+        'images': [
+            Holland,
+            Holland2,
+            Holland,
+            Holland3,
+            Holland4,
+            Holland5,
+            Holland6,
+            Holland7,
+            Holland9,
+            Holland8,
+            Holland10,
+            Holland11,
+            Holland12,
+            Holland13,
+            Holland14,
+            Holland15,
+            Holland16,
+            Holland17,
+            Holland19,
+            Holland20,
+            Holland18,
+        ],
+        'address': {
+            'city': 'Москва',
+            'tc': 'ЖК Holland Park'
+        }, 
+        info: [
+            'Рады пригласить вас на выставку «Русский дом»!',
+            'Место проведения: Стильное лофт-пространство в центре Москвы, на Дербеневской набережной 7.  IRRI-LOFT',
+        ]          
     },
 ]
 
