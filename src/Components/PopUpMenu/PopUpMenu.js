@@ -29,7 +29,7 @@ function PopUpMenu({ isOpend, close }) {
             <div className="PopUpMenu__container">
                 <nav className="PopUpMenu__lists">
                     {
-                        Categories.map((item) =>
+                        Categories.slice(1).map((item) =>
                             <li className="PopUpMenu__list">
                                 <NavLink
                                     to={`/portfolio/${item.id}`}

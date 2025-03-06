@@ -28,7 +28,7 @@ function Price() {
                             <p className='price__card-about_text'>Оформляется договором.</p>
                             <p className='price__card-about_text'>Проект оплачивается поэтапно. На каждом этапе подписывается Акт выполненных работ.</p>
                         </div>
-                        <p className='price__card-price'>4 000 руб/м2</p>
+                        <p className='price__card-price'>5 000 руб/м2</p>
                     </div>
                     <div className='price__card'>
                         <h3 className='price__card-title'>Комплектация</h3>
@@ -36,7 +36,7 @@ function Price() {
                             <p className='price__card-about_text'>Оформляется договором.</p>
                             <p className='price__card-about_text'>Cоставляется смета и детально рассчитывается бюджет проекта.</p>
                         </div>
-                        <p className='price__card-price'>1 000 руб/м2</p>
+                        <p className='price__card-price'>1 500 руб/м2</p>
                     </div>
                     <div className='price__card'>
                         <h3 className='price__card-title'>Авторский надзор</h3>
@@ -45,7 +45,7 @@ function Price() {
                             <p className='price__card-about_text'>Начинается одновременно с ремонтными работами.</p>
                             <p className='price__card-about_text'>Оплачивается в начале каждого месяца.</p>
                         </div>
-                        <p className='price__card-price'>50 000 руб/мес</p>
+                        <p className='price__card-price'>60 000 руб/мес</p>
                     </div>
                 </div>
                 <PopUpQuiz isOpend={isPopUpQuiz} close={closePopUp} />

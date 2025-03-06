@@ -262,6 +262,29 @@ import Croc5 from '../images/portfolio/CROC/5.jpg'
 import Croc6 from '../images/portfolio/CROC/6.jpg'
 import Croc7 from '../images/portfolio/CROC/7.jpg'
 
+import Hotel from '../images/portfolio/Hotel/1.jpg'
+import Hotel2 from '../images/portfolio/Hotel/2.jpg'
+import Hotel3 from '../images/portfolio/Hotel/3.jpg'
+import Hotel4 from '../images/portfolio/Hotel/4.jpg'
+import Hotel5 from '../images/portfolio/Hotel/5.jpg'
+import Hotel6 from '../images/portfolio/Hotel/6.jpg'
+import Hotel7 from '../images/portfolio/Hotel/7.jpg'
+import Hotel8 from '../images/portfolio/Hotel/8.jpg'
+import Hotel9 from '../images/portfolio/Hotel/9.jpg'
+
+import Room from '../images/portfolio/Room/1.jpg'
+import Room2 from '../images/portfolio/Room/2.jpg'
+import Room3 from '../images/portfolio/Room/3.jpg'
+import Room4 from '../images/portfolio/Room/4.jpg'
+
+import Exhibition from '../images/portfolio/Exhibition/1.png'
+import Exhibition2 from '../images/portfolio/Exhibition/2.jpg'
+import Exhibition3 from '../images/portfolio/Exhibition/3.JPG'
+import Exhibition4 from '../images/portfolio/Exhibition/4.jpg'
+import Exhibition5 from '../images/portfolio/Exhibition/5.jpg'
+import Exhibition6 from '../images/portfolio/Exhibition/6.jpg'
+import Exhibition7 from '../images/portfolio/Exhibition/7.jpg'
+
 export const Com = [
     {
         'id': '1',
@@ -1049,6 +1072,75 @@ export const Com = [
             Croc6,
         ],
     },
+    {
+        'id': '30',
+        't': 'com',
+        'category': 'Отели и рестораны',
+        'type': 'Отель',
+        'name': 'Загородный отель',
+        'img': Hotel,
+        'images': [
+            Hotel2,
+            Hotel3,
+            Hotel4,
+            Hotel5,
+            Hotel6,
+            Hotel7,
+            Hotel8,
+            Hotel9,
+        ],
+        info: [
+            'Входная зона загородного отеля должна быть уютной, комфортной и стильной, чтобы гости сразу почувствовали атмосферу гостеприимства и радушия. В этой зоне обычно располагаются стойка регистрации, лобби, зона ожидания и гардероб.',
+            'Стойка регистрации должна быть удобной и функциональной, чтобы гости могли быстро зарегистрироваться и получить всю необходимую информацию об отеле и услугах. Лобби должно быть просторным, светлым и оформленным в соответствии с общим стилем отеля.',
+            'Наши дизайнеры воплотили все эти принципы в проектировании нового отеля.'
+        ]
+    },
+    {
+        'id': '31',
+        't': 'com',
+        'category': 'Офисы',
+        'type': 'Шоурум',
+        'name': 'ASCO',
+        'img': Room,
+        'images': [
+            Room,
+            Room,
+            Room2,
+            Room3,
+            Room4,
+        ],
+        info: [
+            'Шоу-рум бытовой техники для компании ASCO был реконструирован с учётом принципов высокого качества, функциональности и удобства для клиентов.',
+            'Пространство разделено на зоны прачечной, кухни с мастер-классами и экспозиции встраиваемой техники.',
+            'Цветовая гамма и дизайн интерьера выполнены в стиле хай-тек, а техника ASKO является главным акцентом шоу-рума.'
+        ]
+    },
+    {
+        'id': '32',
+        't': 'com',
+        'category': 'Выставки',
+        'type': 'Выставка',
+        'name': 'Русский дом',
+        'img': Exhibition,
+        'images': [
+            Exhibition4,
+            Exhibition3,
+            Exhibition2,
+            Exhibition4,
+            Exhibition5,
+            Exhibition6,
+            Exhibition7,
+        ],
+        info: [
+            'Рады пригласить вас на выставку «Русский дом»!',
+            'Место проведения: Стильное лофт-пространство в центре Москвы, на Дербеневской набережной 7.  IRRI-LOFT',
+            'Здесь будет представлена наша капсульная коллекция. Это прекрасная возможность встретиться с нами и другими топовыми дизайнерами, узнать больше о наших продуктах и услугах, а также вдохновиться новыми идеями и тенденциями отрасли.',
+            'Мы участвуем в этой выставке и приглашаем вас присоединиться к этому событию и открыть для себя новые горизонты в дизайне и архитектуре!',
+            '«Русский дом» — это международная выставка дизайна интерьеров и технологий, направленная на воссоединение с историческими и культурными корнями через современные интерьерные решения.',
+            'Идея нашей капсулы “Уральское Бали”',
+            'Мы хотим помочь туристам в изучении нашей необъятной Родины и предоставить максимальный комфорт в путешествиях с помощью проектирования атмосферных эко-отелей по всей России. Наша капсула представляет собой мини версию лобби отеля.  Мы вдохновились природой и традициями Южного Урала. Это нашло отражение в орнаментах и флористике. А также уникальным местом - Каолиновым карьером «Уральское Бали»'
+        ]
+    },
 ]
 
 export const Categories = [
@@ -1075,5 +1167,9 @@ export const Categories = [
     {
         'id': '6',
         'name': 'Загородные клубы и дома'
+    },
+    {
+        'id': '7',
+        'name': 'Выставки'
     },
 ]
