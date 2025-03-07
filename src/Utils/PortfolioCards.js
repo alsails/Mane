@@ -88,6 +88,15 @@ import PrimeTime3 from '../images/portfolio/PrimeTime/3.jpg'
 import PrimeTime4 from '../images/portfolio/PrimeTime/4.jpg'
 import PrimeTime5 from '../images/portfolio/PrimeTime/5.jpg'
 import PrimeTime6 from '../images/portfolio/PrimeTime/6.jpg'
+import PrimeTime7 from '../images/portfolio/PrimeTime/7.jpg'
+import PrimeTime8 from '../images/portfolio/PrimeTime/8.jpg'
+import PrimeTime9 from '../images/portfolio/PrimeTime/9.jpg'
+import PrimeTime10 from '../images/portfolio/PrimeTime/10.jpg'
+import PrimeTime11 from '../images/portfolio/PrimeTime/11.jpg'
+import PrimeTime12 from '../images/portfolio/PrimeTime/12.jpg'
+import PrimeTime13 from '../images/portfolio/PrimeTime/13.jpg'
+import PrimeTime14 from '../images/portfolio/PrimeTime/14.jpg'
+import PrimeTime15 from '../images/portfolio/PrimeTime/15.jpg'
 
 import Moscow from '../images/portfolio/Moscow/1.jpg'
 import Moscow2 from '../images/portfolio/Moscow/2.jpg'
@@ -412,11 +421,21 @@ export const Com = [
         'img': PrimeTime2,
         'images': [
             PrimeTime,
+            PrimeTime7,
             PrimeTime2,
             PrimeTime3,
             PrimeTime4,
-            PrimeTime5,
             PrimeTime6,
+            PrimeTime5,
+            PrimeTime7,
+            PrimeTime8,
+            PrimeTime12,
+            PrimeTime9,
+            PrimeTime13,
+            PrimeTime14,
+            PrimeTime15,
+            PrimeTime10,
+            PrimeTime11,
         ],
         'address': {
             'city': 'Москва',
