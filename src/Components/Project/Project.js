@@ -5,6 +5,7 @@ import PopUpQuiz from '../PopUpQuiz/PopUpQuiz'
 import './Project.css';
 import { Com } from '../../Utils/PortfolioCards'
 import video from '../../video/JetKids.mp4'
+import Exhibition from "../Exhibition/Exhibition";
 
 function Project() {
     const navigate = useNavigate();
@@ -64,35 +65,36 @@ function Project() {
                 <p className='project__cover-text project__cover-name'>{item.name}</p>
                 {item.square && <p className='project__cover-text project__cover-square'>Общая площадь помещения {item.square} кв.м</p>}
             </div>
-            {item.info &&
-                <div className='project__info'>
-                    {(isWidth > 900) && (
-                        <img className='project__info-img' alt={item.name} src={item.images[1]} />
+            {item.id !== '32' && (
+                <>
+                    {item.info && (
+                        <div className='project__info'>
+                            {isWidth > 900 && (
+                                <img className='project__info-img' alt={item.name} src={item.images[1]} />
+                            )}
+                            <div className='project__info-texts'>
+                                {texts.map((text, index) => (
+                                    <p key={index} className='project__info-text'>{text}</p>
+                                ))}
+                            </div>
+                        </div>
                     )}
-                    <div className='project__info-texts'>
-                        {
-                            texts.map((text) =>
-                                <p className='project__info-text'>{text}</p>
-                            )
-                        }
+                    {item.id === '21' && (
+                        <video controls muted className="project__video">
+                            <source className="project__source" src={video} type="video/mp4" preload='auto' />
+                            <p className="project__error">
+                                Ваш браузер не поддерживает встроенные видео.
+                            </p>
+                        </video>
+                    )}
+                    <div className='project__images'>
+                        {images.slice(slice_point).map((image, index) => (
+                            <img key={index} className='project__image' alt={item.name} src={image} />
+                        ))}
                     </div>
-                </div>
-            }
-            {item.id === '21' &&
-                <video controls muted className="project__video">
-                    <source className="project__source" src={video} type="video/mp4" preload='auto'/>
-                    <p className="project__error">
-                        Ваш браузер не поддерживает встроенные видео.
-                    </p>
-                </video>
-            }
-            <div className='project__images'>
-                {
-                    images.slice(slice_point, images.length).map((image) =>
-                        <img className='project__image' alt={item.name} src={image} />
-                    )
-                }
-            </div>
+                </>
+            )}
+            {item.id === '32' && <Exhibition item={item} texts={texts}/>}
             <button onClick={handleopUpQuizOpens} className='project__button'>Оставить заявку на дизайн-проект</button>
             <PopUpQuiz isOpend={isPopUpQuiz} close={closePopUp} />
         </section>
