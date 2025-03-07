@@ -12,11 +12,7 @@ function Footer() {
     useEffect(() => {
         setIsAllowedUrl(allowedUrls.includes(location.pathname));
     }, [location.pathname]);
-
-    console.log('location', location.pathname)
-    console.log('allowedUrls', allowedUrls)
-    console.log('isAllowedUrl', isAllowedUrl)
-
+    
     return (
         <footer className='footer__container'>
             <div className="footer">
