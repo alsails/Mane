@@ -674,6 +674,16 @@ section {
         row-gap: 8px;
     }
 
+    .idea_container_second-img {
+        max-height: 524px;
+
+        object-fit: cover;
+    }
+
+    .idea__video {
+        max-height: 524px;
+    }
+
     .exhibition_info {
         grid-template-rows: 45px minmax(100px, 350px) minmax(100px, 270px) minmax(250px, 350px) minmax(250px, 350px) minmax(100px, 200px) repeat(2, minmax(250px, 350px));
     }
