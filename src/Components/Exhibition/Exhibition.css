@@ -726,11 +726,9 @@ section {
     }
 
     .idea_title-text {
-        font-size: 25px;
+        font-size: 30px;
     }
-}
-
-@media (max-width: 450px) {
+    
     .exhibition_info {
         grid-template-rows: 45px minmax(100px, 320px) minmax(100px, 200px) minmax(250px, 350px) minmax(250px, 350px) minmax(100px, 320px) repeat(2, minmax(250px, 350px));
     }
