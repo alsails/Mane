@@ -45,7 +45,7 @@ function Price() {
                             <p className='price__card-about_text'>Начинается одновременно с ремонтными работами.</p>
                             <p className='price__card-about_text'>Оплачивается в начале каждого месяца.</p>
                         </div>
-                        <p className='price__card-price'>60 000 руб/мес</p>
+                        <p className='price__card-price'>70 000 руб/мес</p>
                     </div>
                 </div>
                 <PopUpQuiz isOpend={isPopUpQuiz} close={closePopUp} />
