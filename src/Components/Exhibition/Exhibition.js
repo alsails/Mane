@@ -11,7 +11,7 @@ function Exhibition({item, texts}) {
     });
 
     return (
-        <section>
+        <section className="exhibition">
             <div class="exhibition_info">
                 <div class="exhibition_title">
                     <h2 className="exhibition_title-text"><span>Ко</span>нцепция</h2>

@@ -79,6 +79,11 @@
 
 .nav__link {
     font-size: 21px;
+    background: none;
+    border: none;
+    padding: 0;
+    color: inherit;
+    font: inherit;
 }
 
 .header__nav-link:hover {
@@ -242,5 +247,4 @@
         height: 38px;
     }
 }
-
 

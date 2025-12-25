@@ -3,7 +3,6 @@ import './AboutUs.css';
 import british from '../../images/education/british.jpg'
 import national from '../../images/education/national.jpg'
 import school from '../../images/education/school.png'
-import university from '../../images/education/university.png'
 
 import magneto from '../../images/partners/magneto.png'
 import provanse from '../../images/partners/provanse.jpeg'
@@ -12,7 +11,7 @@ import shato from '../../images/partners/shato.jpg'
 import smeg from '../../images/partners/smeg.jpg'
 import krok from '../../images/partners/krok.jpg'
 
-import igor from '../../images/person/igor.jpeg'
+import liza from '../../images/person/liza.jpg'
 import julia from '../../images/person/julia.jpg'
 
 function AboutUs() {
@@ -45,8 +44,8 @@ function AboutUs() {
                         <p className='about__person_text'><b>Юлия Матвиенко</b> - руководитель студии</p>
                         </div>
                     <div className='about__person_img-container'>
-                        <img className='about__person_img' alt='Игорь' src={igor}/>
-                        <p className='about__person_text'><b>Игорь Негара</b> - дизайн освещения</p>
+                        <img className='about__person_img' alt='Елизавета' src={liza}/>
+                        <p className='about__person_text'><b>Елизавета Феоктистова</b> - ведущий дизайнер</p>
                     </div>
                 </div>
             </div>
@@ -72,7 +71,6 @@ function AboutUs() {
                         <img alt='Диплом' className='education__info_img' src={british}></img>
                         <img alt='Диплом' className='education__info_img' src={national}></img>
                         <img alt='Диплом' className='education__info_img' src={school}></img>
-                        <img alt='Диплом' className='education__info_img' src={university}></img>
                     </div>
                 </div>
                 <div className='partners__container'>

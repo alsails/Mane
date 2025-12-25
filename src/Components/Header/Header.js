@@ -1,6 +1,6 @@
 import { Link, scroller } from "react-scroll";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import './Header.css';
 import Logo from '../../images/logo.png'
@@ -15,9 +15,21 @@ function Header() {
   const location = useLocation();
   const navigate = useNavigate();
 
-  window.addEventListener('resize', function () {
-    setisWidth(window.innerWidth);
-  });
+  useEffect(() => {
+    function handleResize() {
+      setisWidth(window.innerWidth);
+    }
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  function scrollToBlock(block) {
+    scroller.scrollTo(block, {
+      smooth: true,
+      duration: block === "contacts" ? 2500 : 1000
+    });
+  }
 
 
   function togglePopup() {
@@ -29,11 +41,10 @@ function Header() {
       navigate("/");
 
       setTimeout(() => {
-        scroller.scrollTo(block, {
-          smooth: true,
-          duration: block === "contacts" ? 2500 : 1000
-        });
+        scrollToBlock(block);
       }, 100);
+    } else {
+      scrollToBlock(block);
     }
   }
 
@@ -64,57 +75,78 @@ function Header() {
             </NavLink>
             <nav className='header__nav-links'>
               <li className='header__nav-link'>
-                <Link
-                  to={location.pathname === "/" ? "aboutUs" : ""}
-                  className="nav__link"
-                  smooth={true}
-                  duration={1000}
-                  onClick={() => handleAboutUsClick('aboutUs')}
-                >
-                  О нас
-                </Link>
+                {location.pathname === "/" ? (
+                  <Link
+                    to="aboutUs"
+                    className="nav__link"
+                    smooth={true}
+                    duration={1000}
+                  >
+                    О нас
+                  </Link>
+                ) : (
+                  <button type="button" className="nav__link" onClick={() => handleAboutUsClick('aboutUs')}>
+                    О нас
+                  </button>
+                )}
               </li>
               <li className='header__nav-link'>
-                <Link
-                  to={location.pathname === "/" ? "price" : ""}
-                  className="nav__link"
-                  smooth={true}
-                  duration={2000}
-                  onClick={() => handleAboutUsClick('price')}
-                >
-                  Услуги
-                </Link>
+                {location.pathname === "/" ? (
+                  <Link
+                    to="price"
+                    className="nav__link"
+                    smooth={true}
+                    duration={2000}
+                  >
+                    ???????
+                  </Link>
+                ) : (
+                  <button type="button" className="nav__link" onClick={() => handleAboutUsClick('price')}>
+                    ???????
+                  </button>
+                )}
               </li>
               <li
                 className='header__nav-link'>
-                <Link
+                <button
+                  type="button"
                   className="nav__link"
                   onClick={handlePopUpMenuOpen}
                 >
-                  Портфолио
-                </Link>
+                  ???????????
+                </button>
               </li>
               <li className='header__nav-link'>
-                <Link
-                  to={location.pathname === "/" ? "reviews" : ""}
-                  className="nav__link"
-                  smooth={true}
-                  duration={2000}
-                  onClick={() => handleAboutUsClick('reviews')}
-                >
-                  Отзывы
-                </Link>
+                {location.pathname === "/" ? (
+                  <Link
+                    to="reviews"
+                    className="nav__link"
+                    smooth={true}
+                    duration={2000}
+                  >
+                    ??????
+                  </Link>
+                ) : (
+                  <button type="button" className="nav__link" onClick={() => handleAboutUsClick('reviews')}>
+                    ??????
+                  </button>
+                )}
               </li>
               <li className='header__nav-link'>
-                <Link
-                  to={location.pathname === "/" ? "contacts" : ""}
-                  className="nav__link"
-                  smooth={true}
-                  duration={2000}
-                  onClick={() => handleAboutUsClick('contacts')}
-                >
-                  Контакты
-                </Link>
+                {location.pathname === "/" ? (
+                  <Link
+                    to="contacts"
+                    className="nav__link"
+                    smooth={true}
+                    duration={2000}
+                  >
+                    ?????????
+                  </Link>
+                ) : (
+                  <button type="button" className="nav__link" onClick={() => handleAboutUsClick('contacts')}>
+                    ?????????
+                  </button>
+                )}
               </li>
             </nav>
             <p className='header__phone'>8 916 672 62 25</p>

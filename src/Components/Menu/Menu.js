@@ -7,17 +7,23 @@ function Menu({ isOpened, close }) {
     const location = useLocation();
     const navigate = useNavigate();
 
+    function scrollToBlock(block) {
+        scroller.scrollTo(block, {
+            smooth: true,
+            duration: block === "contacts" ? 2500 : 1000
+        });
+    }
+
     function handleAboutUsClick(block) {
         close()
         if (location.pathname !== "/") {
             navigate("/");
 
             setTimeout(() => {
-                scroller.scrollTo(block, {
-                    smooth: true,
-                    duration: block === "contacts" ? 2500 : 1000
-                });
+                scrollToBlock(block);
             }, 100);
+        } else {
+            scrollToBlock(block);
         }
     }
 
@@ -35,67 +41,96 @@ function Menu({ isOpened, close }) {
                 popup.removeEventListener('click', closeByOverlayClick);
             };
         }
-    }, [isOpened])
+    }, [isOpened, close])
 
     return (
         <div className={`popupMenu ${isOpened ? 'popupMenu_active' : ''}`}>
             <div className='popupMenu__container'>
                 <ul className='popupMenu__links'>
                     <li className='popupMenu__links-link'>
-                        <Link
-                            to={location.pathname === "/" ? "aboutUs" : ""}
+                        {location.pathname === "/" ? (
+                          <Link
+                            to="aboutUs"
                             className="popupMenu__link"
                             smooth={true}
                             duration={1000}
-                            onClick={() => handleAboutUsClick('aboutUs')}
-                        >
+                            onClick={close}
+                          >
                             О нас
-                        </Link>
+                          </Link>
+                        ) : (
+                          <button type="button" className="popupMenu__link" onClick={() => handleAboutUsClick('aboutUs')}>
+                            О нас
+                          </button>
+                        )}
                     </li>
                     <li className='popupMenu__links-link'>
-                        <Link
-                            to={location.pathname === "/" ? "price" : ""}
+                        {location.pathname === "/" ? (
+                          <Link
+                            to="price"
                             className="popupMenu__link"
                             smooth={true}
                             duration={2000}
-                            onClick={() => handleAboutUsClick('price')}
-                        >
+                            onClick={close}
+                          >
                             Услуги
-                        </Link>
+                          </Link>
+                        ) : (
+                          <button type="button" className="popupMenu__link" onClick={() => handleAboutUsClick('price')}>
+                            Услуги
+                          </button>
+                        )}
                     </li>
-                    <li
-                        className='popupMenu__links-link'>
-                        <Link
-                            to={location.pathname === "/" ? "portfolio" : ""}
+                    <li className='popupMenu__links-link'>
+                        {location.pathname === "/" ? (
+                          <Link
+                            to="portfolio"
                             className="popupMenu__link"
                             smooth={true}
                             duration={2000}
-                            onClick={() => handleAboutUsClick('portfolio')}
-                        >
+                            onClick={close}
+                          >
                             Портфолио
-                        </Link>
+                          </Link>
+                        ) : (
+                          <button type="button" className="popupMenu__link" onClick={() => handleAboutUsClick('portfolio')}>
+                            Портфолио
+                          </button>
+                        )}
                     </li>
                     <li className='popupMenu__links-link'>
-                        <Link
-                            to={location.pathname === "/" ? "reviews" : ""}
+                        {location.pathname === "/" ? (
+                          <Link
+                            to="reviews"
                             className="popupMenu__link"
                             smooth={true}
                             duration={2000}
-                            onClick={() => handleAboutUsClick('reviews')}
-                        >
+                            onClick={close}
+                          >
                             Отзывы
-                        </Link>
+                          </Link>
+                        ) : (
+                          <button type="button" className="popupMenu__link" onClick={() => handleAboutUsClick('reviews')}>
+                            Отзывы
+                          </button>
+                        )}
                     </li>
                     <li className='popupMenu__links-link'>
-                        <Link
-                            to={location.pathname === "/" ? "contacts" : ""}
+                        {location.pathname === "/" ? (
+                          <Link
+                            to="contacts"
                             className="popupMenu__link"
                             smooth={true}
                             duration={2000}
-                            onClick={() => handleAboutUsClick('contacts')}
-                        >
+                            onClick={close}
+                          >
                             Контакты
-                        </Link>
+                          </Link>
+                        ) : (
+                          <button type="button" className="popupMenu__link" onClick={() => handleAboutUsClick('contacts')}>
+                            Контакты
+                          </button>
+                        )}
                     </li>
                 </ul>
             </div>

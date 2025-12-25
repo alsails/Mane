@@ -325,6 +325,20 @@ import Holland18 from '../images/portfolio/Holland/18.jpg'
 import Holland19 from '../images/portfolio/Holland/19.jpg'
 import Holland20 from '../images/portfolio/Holland/20.jpg'
 
+import ExhibitionCity2 from '../images/portfolio/Exhibition2/2.JPG'
+import ExhibitionCity3 from '../images/portfolio/Exhibition2/3.JPG'
+import ExhibitionCity4 from '../images/portfolio/Exhibition2/4.JPG'
+import ExhibitionCity5 from '../images/portfolio/Exhibition2/5.JPG'
+import ExhibitionCity6 from '../images/portfolio/Exhibition2/6.JPG'
+import ExhibitionCity7 from '../images/portfolio/Exhibition2/7.JPG'
+import ExhibitionCity8 from '../images/portfolio/Exhibition2/8.JPG'
+import ExhibitionCity9 from '../images/portfolio/Exhibition2/9.JPG'
+import ExhibitionCity10 from '../images/portfolio/Exhibition2/10.jpg'
+import ExhibitionCity11 from '../images/portfolio/Exhibition2/11.jpg'
+import ExhibitionCity12 from '../images/portfolio/Exhibition2/12.jpg'
+import ExhibitionCity13 from '../images/portfolio/Exhibition2/13.jpg'
+
+
 export const Com = [
     {
         'id': '1',
@@ -1245,6 +1259,39 @@ export const Com = [
             'Освещение продумано по зонам с использованием скрытой подсветки, что создает многоуровневый световой сценарий. Гладкие поверхности без лишних орнаментов делают интерьер глубоким, а продуманные фактуры и текстуры добавляют пространству характер.',
             'Этот проект демонстрирует, что темное пространство может быть не только стильным, но и уютным, идеально подходящим для повседневной жизни современной семьи.'
         ]          
+    },
+    {
+        'id': '34',
+        't': 'com',
+        'category': 'Выставки',
+        'type': 'Выставка',
+        'name': 'Русский дом',
+        'img': ExhibitionCity11,
+        'images': [
+            ExhibitionCity2,
+            ExhibitionCity3,
+            ExhibitionCity4,
+            ExhibitionCity5,
+            ExhibitionCity6,
+            ExhibitionCity7,
+            ExhibitionCity8,
+            ExhibitionCity9,
+            ExhibitionCity10,
+            ExhibitionCity11,
+            ExhibitionCity12,
+            ExhibitionCity13,
+        ],
+        info: [
+            'Эко-капсула «Каменный город» — это погружение в мистический мир горной России, где современность встречается с древними легендами. Пространство капсулы создано как собирательный образ нетронутой природы и самобытной культуры российских гор.',
+            'Эко-отели будущего — это не просто места для отдыха, а пространства, где современные технологии сочетаются с уважением к природе. Мы создаем комфортные условия для путешественников, сохраняя первозданную красоту российских гор.',
+            'Атмосферный дизайн капсулы воплощает идею единения человека с природой. Натуральные материалы, каменные текстуры создают эффект пребывания в настоящем горном отеле. Каждый элемент интерьера рассказывает историю о величии и красоте российской природы.',
+            'Минимальное воздействие на окружающую среду',
+            'Использование возобновляемых источников энергии',
+            'Локальные материалы и ремесленные традиции',
+            'Интеграция в природный ландшафт',
+            'Откройте для себя необъятные просторы России через призму современного экологического туризма. Наша миссия — сделать знакомство с горными регионами доступным и комфортным, сохраняя их уникальную самобытность для будущих поколений.',
+            'Приглашаем вас в путешествие по «краю без окраин», где каждый уголок России становится частью незабываемого приключения.',
+        ]
     },
 ]
 

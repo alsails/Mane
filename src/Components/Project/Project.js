@@ -6,6 +6,7 @@ import './Project.css';
 import { Com } from '../../Utils/PortfolioCards'
 import video from '../../video/JetKids.mp4'
 import Exhibition from "../Exhibition/Exhibition";
+import Exhibition2 from "../Exhibition2/Exhibition2";
 
 function Project() {
     const navigate = useNavigate();
@@ -65,7 +66,7 @@ function Project() {
                 <p className='project__cover-text project__cover-name'>{item.name}</p>
                 {item.square && <p className='project__cover-text project__cover-square'>Общая площадь помещения {item.square} кв.м</p>}
             </div>
-            {item.id !== '32' && (
+            {item.id !== '32' && item.id !== '34' && (
                 <>
                     {item.info && (
                         <div className='project__info'>
@@ -94,7 +95,8 @@ function Project() {
                     </div>
                 </>
             )}
-            {item.id === '32' && <Exhibition item={item} texts={texts}/>}
+            {(item.id === '32') && <Exhibition item={item} texts={texts}/>}
+            {(item.id === '34') && <Exhibition2 item={item} texts={texts}/>}
             <button onClick={handleopUpQuizOpens} className='project__button'>Оставить заявку на дизайн-проект</button>
             <PopUpQuiz isOpend={isPopUpQuiz} close={closePopUp} />
         </section>

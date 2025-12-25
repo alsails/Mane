@@ -43,7 +43,7 @@ function PopUpQuiz({ isOpend, close }) {
                 popup.removeEventListener('click', closeByOverlayClick);
             };
         }
-    }, [isOpend])
+    }, [isOpend, close])
 
     const handleOptionChange = (event) => {
         setSelectedType(event.target.value);

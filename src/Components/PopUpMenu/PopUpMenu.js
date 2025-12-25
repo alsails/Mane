@@ -19,7 +19,7 @@ function PopUpMenu({ isOpend, close }) {
                 popup.removeEventListener('click', closeByOverlayClick);
             };
         }
-    }, [isOpend])
+    }, [isOpend, close])
 
 
 

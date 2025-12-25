@@ -4,8 +4,9 @@ import { useState, useEffect } from 'react';
 import './Footer.css';
 import Logo from '../../images/logo.png'
 
+const allowedUrls = ['/'];
+
 function Footer() {
-    const allowedUrls = ['/'];
     const location = useLocation();
     const [isAllowedUrl, setIsAllowedUrl] = useState(true);
 

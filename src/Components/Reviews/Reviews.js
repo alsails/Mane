@@ -25,11 +25,11 @@ function Reviews() {
                 <Slider {...settings}>
                     {
                         Rev.map((review) => (
-                            <div className="review__container" key={review.index}>
-                                <div className="review" key={review.index}>
+                            <div className="review__container" key={review.id}>
+                                <div className="review">
                                     <h3 className="review__title">{review.title}</h3>
-                                    {review.text.map((text) =>
-                                        <p className="review__text">{text}</p>
+                                    {review.text.map((text, index) =>
+                                        <p className="review__text" key={`${review.id}-${index}`}>{text}</p>
                                     )}
                                 </div>
                             </div>

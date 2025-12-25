@@ -29,7 +29,7 @@ function AllPortfolio() {
             : Com.filter(item => item.category === activeCategory);
 
         setFilteredItems(updatedFilteredItems);
-    }, [activeCategory, Com]);
+    }, [activeCategory]);
 
     return (
         <section className='allPortfolio'>
@@ -37,7 +37,7 @@ function AllPortfolio() {
             <nav className='allPortfolio__categories'>
                 {Categories.map(category => (
                     <NavLink 
-                        key={category}
+                        key={category.id}
                         to={`/portfolio/${category.id}`}
                         className={`allPortfolio__category ${activeCategory === category.name ? 'allPortfolio__category_active' : ''}`}
                     >
