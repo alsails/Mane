@@ -30,6 +30,10 @@ function Exhibition2({ item, texts }) {
         : images.slice(1);
 
     const [
+        img1,
+        img2,
+        img3,
+        img4,
         img5,
         img6,
         img7,

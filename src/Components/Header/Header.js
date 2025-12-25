@@ -98,11 +98,11 @@ function Header() {
                     smooth={true}
                     duration={2000}
                   >
-                    ???????
+                    Услуги
                   </Link>
                 ) : (
                   <button type="button" className="nav__link" onClick={() => handleAboutUsClick('price')}>
-                    ???????
+                    Услуги
                   </button>
                 )}
               </li>
@@ -113,7 +113,7 @@ function Header() {
                   className="nav__link"
                   onClick={handlePopUpMenuOpen}
                 >
-                  ???????????
+                  Портфолио
                 </button>
               </li>
               <li className='header__nav-link'>
@@ -124,11 +124,11 @@ function Header() {
                     smooth={true}
                     duration={2000}
                   >
-                    ??????
+                    Отзывы
                   </Link>
                 ) : (
                   <button type="button" className="nav__link" onClick={() => handleAboutUsClick('reviews')}>
-                    ??????
+                    Отзывы
                   </button>
                 )}
               </li>
@@ -140,11 +140,11 @@ function Header() {
                     smooth={true}
                     duration={2000}
                   >
-                    ?????????
+                    Контакты
                   </Link>
                 ) : (
                   <button type="button" className="nav__link" onClick={() => handleAboutUsClick('contacts')}>
-                    ?????????
+                    Контакты
                   </button>
                 )}
               </li>

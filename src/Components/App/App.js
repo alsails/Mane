@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate, useLocation } from "react-router-dom";
 
 import './App.css';
 import Header from "../Header/Header";
@@ -8,11 +8,15 @@ import Project from '../Project/Project';
 import Main from "../Main/Main";
 import Requisites from "../Requisites/Requisites";
 import Politics from "../Politics/Politics";
+import NotFound from "../NotFound/NotFound";
 
 function App() {
+  const location = useLocation();
+  const isNotFound = location.pathname === "/404";
+
   return (
     <div className='page'>
-      <Header />
+      {!isNotFound && <Header />}
       <main>
         <Routes>
           <Route
@@ -35,9 +39,17 @@ function App() {
             path="/politics"
             element={<Politics  />}
           />
+          <Route
+            path="/404"
+            element={<NotFound />}
+          />
+          <Route
+            path="*"
+            element={<Navigate to="/404" replace />}
+          />
         </Routes>
       </main>
-      <Footer />
+      {!isNotFound && <Footer />}
     </div>
   )
 }
