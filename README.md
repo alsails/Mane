@@ -1,70 +1,153 @@
-# Getting Started with Create React App
+# MANE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**MANE** — сайт студии дизайна интерьеров, разработанный на **React**.
 
-## Available Scripts
+Проект представляет услуги студии, портфолио реализованных работ, отзывы клиентов, контактную информацию и форму заявки на дизайн-проект.
 
-In the project directory, you can run:
+**Сайт:** [https://ma-ne.ru/](https://ma-ne.ru/)  
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## О проекте
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+MANE — одностраничное веб-приложение для студии дизайна интерьеров.
 
-### `npm test`
+Сайт помогает пользователю познакомиться со студией, посмотреть реализованные проекты, изучить услуги и оставить заявку на консультацию или дизайн-проект.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Проект ориентирован на визуальную презентацию работ, поэтому основное внимание уделено портфолио, фотографиям проектов, удобной навигации и адаптивному интерфейсу.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Основной функционал
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- главная страница с презентацией студии;
+- навигация по разделам сайта;
+- блок с информацией о студии;
+- раздел с услугами и стоимостью;
+- портфолио проектов;
+- фильтрация проектов по категориям;
+- отдельные страницы проектов с описанием и изображениями;
+- блок отзывов;
+- контактная информация;
+- форма обратной связи;
+- страница политики конфиденциальности;
+- страница 404 для несуществующих маршрутов.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Портфолио
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+В проекте реализован раздел портфолио, где представлены разные типы объектов:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- коммерческие помещения;
+- жилые помещения;
+- квартиры;
+- дома;
+- отели;
+- рестораны;
+- шоурумы;
+- магазины и бутики.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Для каждого проекта может отображаться:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- название;
+- тип объекта;
+- площадь;
+- описание;
+- галерея изображений;
+- отдельная страница проекта.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Услуги
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+На сайте представлены основные услуги студии:
 
-### Code Splitting
+- дизайн-проект;
+- комплектация;
+- авторский надзор.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Пользователь может ознакомиться с описанием услуг и оставить заявку через форму обратной связи.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Форма заявки
 
-### Making a Progressive Web App
+На сайте реализована форма обратной связи.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Пользователь может указать:
 
-### Advanced Configuration
+- имя;
+- номер телефона;
+- согласие с политикой конфиденциальности.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Отправка заявки реализована через **EmailJS**.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Технологии
 
-### `npm run build` fails to minify
+- React
+- JavaScript
+- React Router
+- React Scroll
+- React Slick
+- Slick Carousel
+- EmailJS
+- React Input Mask
+- React Icons
+- CSS
+- Create React App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## Структура проекта
+
+```text
+Mane/
+├── public/              # публичные файлы проекта
+├── src/                 # исходный код приложения
+│   ├── Components/      # компоненты интерфейса
+│   ├── Utils/           # данные и вспомогательные файлы
+│   ├── images/          # изображения и фотографии проектов
+│   ├── video/           # видеофайлы
+│   ├── index.js         # точка входа приложения
+│   └── index.css        # глобальные стили
+├── package.json         # зависимости и скрипты проекта
+└── README.md
+```
+
+---
+
+## Основные компоненты
+
+```text
+App             # маршрутизация приложения
+Header          # шапка сайта и навигация
+Footer          # подвал сайта
+Main            # главная страница
+AboutUs         # информация о студии
+Price           # услуги и стоимость
+Portfolio       # блок портфолио на главной
+AllPortfolio    # полная страница портфолио
+Project         # страница отдельного проекта
+Reviews         # отзывы
+Contacts        # контакты и форма заявки
+Politics        # политика конфиденциальности
+NotFound        # страница 404
+```
+
+---
+
+## Маршрутизация
+
+В проекте используется **React Router**.
+
+Основные страницы:
+
+- `/` — главная страница;
+- `/portfolio/:categoryId` — портфолио по категориям;
+- `/project/:projectId` — страница отдельного проекта;
+- `/requisites` — реквизиты;
+- `/politics` — политика конфиденциальности;
+- `/404` — страница ошибки.
